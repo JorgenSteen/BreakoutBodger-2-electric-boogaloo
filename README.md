@@ -1,0 +1,2 @@
+This is the breakout bodger 2 electric boogaloo, which is a continuation on breakout bodger deluxe.
+It is a basic breakout board for atmel controller atmega328, but can also work for chips with similar pinouts.
