@@ -1,6 +1,6 @@
-update=14-Oct-20 19:28:58
+update=ma 17. heinäkuuta 2017 22.25.19
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,16 +25,10 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=Gekkio_GameBoy
+LibName2=Gekkio_Lattice
+LibName3=Gekkio_Molex
