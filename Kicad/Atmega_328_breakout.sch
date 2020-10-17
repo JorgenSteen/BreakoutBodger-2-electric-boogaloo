@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Atmega_328_breakout-rescue:ATMEGA328P-AU U4
+L Atmega_328_breakout-rescue:ATMEGA328P-AU-Atmega_328_breakout-rescue U4
 U 1 1 5A72EFAD
 P 4200 3650
 F 0 "U4" H 3450 4900 50  0000 L BNN
@@ -26,7 +26,7 @@ F 4 "C132230" H 4200 3650 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR05
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR05
 U 1 1 5A72F000
 P 3100 4900
 F 0 "#PWR05" H 3100 4650 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 3100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C4
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C4
 U 1 1 5A72F1D1
 P 2950 3425
 F 0 "C4" H 2960 3495 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 2950 3425 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C1
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C1
 U 1 1 5A72F20F
 P 2450 3100
 F 0 "C1" H 2460 3170 50  0000 L CNN
@@ -72,7 +72,7 @@ $EndComp
 Text GLabel 7250 10000 2    60   Input ~ 0
 AVCC
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR046
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR046
 U 1 1 5A72F710
 P 15200 9175
 F 0 "#PWR046" H 15200 8925 50  0001 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 15200 9175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR028
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR028
 U 1 1 5A72FA77
 P 9125 10325
 F 0 "#PWR028" H 9125 10075 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 9125 10325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C9
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C9
 U 1 1 5A72FADC
 P 9125 10050
 F 0 "C9" H 9135 10120 50  0000 L CNN
@@ -105,7 +105,7 @@ F 3 "" H 9125 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C11
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C11
 U 1 1 5A7307FE
 P 12350 1650
 F 0 "C11" H 12360 1720 50  0000 L CNN
@@ -116,7 +116,7 @@ F 3 "" H 12350 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C12
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C12
 U 1 1 5A7309D9
 P 12850 1650
 F 0 "C12" H 12860 1720 50  0000 L CNN
@@ -127,7 +127,7 @@ F 3 "" H 12850 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Ferrite_Bead_Small L3
+L Atmega_328_breakout-rescue:Ferrite_Bead_Small-Atmega_328_breakout-rescue L3
 U 1 1 5A732638
 P 7050 10000
 F 0 "L3" H 7125 10050 50  0000 L CNN
@@ -138,7 +138,7 @@ F 3 "" H 7050 10000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Ferrite_Bead_Small L2
+L Atmega_328_breakout-rescue:Ferrite_Bead_Small-Atmega_328_breakout-rescue L2
 U 1 1 5A732784
 P 7050 9750
 F 0 "L2" H 7125 9800 50  0000 L CNN
@@ -149,7 +149,7 @@ F 3 "" H 7050 9750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R7
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R7
 U 1 1 5A7351DB
 P 9450 9850
 F 0 "R7" V 9530 9850 50  0000 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 9450 9850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:AVR-ISP-6 ISP1
+L Atmega_328_breakout-rescue:AVR-ISP-6-Atmega_328_breakout-rescue ISP1
 U 1 1 5A73544B
 P 14625 2250
 F 0 "ISP1" H 14520 2490 50  0000 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 14600 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:LED D4
+L Atmega_328_breakout-rescue:LED-Atmega_328_breakout-rescue D4
 U 1 1 5A73AB52
 P 13900 6350
 F 0 "D4" H 13900 6450 50  0000 C CNN
@@ -182,7 +182,7 @@ F 3 "" H 13900 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R8
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R8
 U 1 1 5A73ACF9
 P 13900 5950
 F 0 "R8" V 13980 5950 50  0000 C CNN
@@ -193,7 +193,7 @@ F 3 "" H 13900 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C14
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C14
 U 1 1 5A740F21
 P 15775 8750
 F 0 "C14" H 15785 8820 50  0000 L CNN
@@ -204,7 +204,7 @@ F 3 "" H 15775 8750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:USB_OTG J28
+L Atmega_328_breakout-rescue:USB_OTG-Atmega_328_breakout-rescue J28
 U 1 1 5A732B01
 P 15200 8700
 F 0 "J28" H 15000 9150 50  0000 L CNN
@@ -215,7 +215,7 @@ F 3 "" H 15350 8650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:+3.3V #PWR016
+L Atmega_328_breakout-rescue:+3.3V-Atmega_328_breakout-rescue #PWR016
 U 1 1 5A7419EA
 P 5500 8350
 F 0 "#PWR016" H 5500 8200 50  0001 C CNN
@@ -226,7 +226,7 @@ F 3 "" H 5500 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R3
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R3
 U 1 1 5A741F80
 P 5500 8800
 F 0 "R3" V 5580 8800 50  0000 C CNN
@@ -237,7 +237,7 @@ F 3 "" H 5500 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R4
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R4
 U 1 1 5A742113
 P 5850 8800
 F 0 "R4" V 5930 8800 50  0000 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 12525 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR039
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR039
 U 1 1 5A74B5BB
 P 13900 6650
 F 0 "#PWR039" H 13900 6400 50  0001 C CNN
@@ -270,7 +270,7 @@ F 3 "" H 13900 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x08_Female J22
+L Atmega_328_breakout-rescue:Conn_01x08_Female-Atmega_328_breakout-rescue J22
 U 1 1 5A754CA0
 P 9730 3260
 F 0 "J22" H 9480 3660 50  0000 C CNN
@@ -281,7 +281,7 @@ F 3 "" H 9730 3260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x06_Female J19
+L Atmega_328_breakout-rescue:Conn_01x06_Female-Atmega_328_breakout-rescue J19
 U 1 1 5A7558EF
 P 6800 2200
 F 0 "J19" H 6750 1675 50  0000 C CNN
@@ -292,7 +292,7 @@ F 3 "" H 6800 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_02x05_Odd_Even J26
+L Atmega_328_breakout-rescue:Conn_02x05_Odd_Even-Atmega_328_breakout-rescue J26
 U 1 1 5A7564A8
 P 14450 1100
 F 0 "J26" H 14500 1400 50  0000 C CNN
@@ -319,7 +319,7 @@ PD6
 Text Label 9080 2960 0    60   ~ 0
 PD7
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR037
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR037
 U 1 1 5A74E5EF
 P 13825 8500
 F 0 "#PWR037" H 13825 8250 50  0001 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 13825 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R6
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R6
 U 1 1 5A72FC12
 P 9125 9475
 F 0 "R6" V 9205 9475 50  0000 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 9125 9325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x09 J27
+L Atmega_328_breakout-rescue:Conn_01x09-Atmega_328_breakout-rescue J27
 U 1 1 5A755A32
 P 15200 3650
 F 0 "J27" H 15200 4150 50  0000 C CNN
@@ -363,7 +363,7 @@ F 3 "" H 15200 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR032
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR032
 U 1 1 5A75CA7B
 P 11300 4100
 F 0 "#PWR032" H 11300 3850 50  0001 C CNN
@@ -374,7 +374,7 @@ F 3 "" H 11300 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x01 J23
+L Atmega_328_breakout-rescue:Conn_01x01-Atmega_328_breakout-rescue J23
 U 1 1 5A7639D5
 P 11650 3850
 F 0 "J23" H 11650 3950 50  0000 C CNN
@@ -403,7 +403,7 @@ Normal Pin headers
 Text Notes 6200 8850 0    60   ~ 0
 Connect the selected VCC, not both
 $Comp
-L Atmega_328_breakout-rescue:C_Small C3
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C3
 U 1 1 5A76BD1D
 P 2850 2450
 F 0 "C3" H 2860 2520 50  0000 L CNN
@@ -419,7 +419,7 @@ NoConn ~ 12700 9200
 NoConn ~ 12700 8800
 NoConn ~ 12700 8700
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x03_Female J25
+L Atmega_328_breakout-rescue:Conn_01x03_Female-Atmega_328_breakout-rescue J25
 U 1 1 5A797A34
 P 14400 3950
 F 0 "J25" H 14400 4150 50  0000 C CNN
@@ -431,7 +431,7 @@ F 3 "" H 14400 3950 50  0001 C CNN
 $EndComp
 NoConn ~ 14900 8900
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J2
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J2
 U 1 1 5A794947
 P 2775 6125
 F 0 "J2" H 2775 6225 50  0000 C CNN
@@ -442,7 +442,7 @@ F 3 "" H 2775 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J4
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J4
 U 1 1 5A795805
 P 3150 6125
 F 0 "J4" H 3150 6225 50  0000 C CNN
@@ -453,7 +453,7 @@ F 3 "" H 3150 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J6
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J6
 U 1 1 5A7958D6
 P 3525 6125
 F 0 "J6" H 3525 6225 50  0000 C CNN
@@ -464,7 +464,7 @@ F 3 "" H 3525 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J8
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J8
 U 1 1 5A7959A4
 P 3875 6125
 F 0 "J8" H 3875 6225 50  0000 C CNN
@@ -475,7 +475,7 @@ F 3 "" H 3875 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J11
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J11
 U 1 1 5A795A73
 P 4250 6125
 F 0 "J11" H 4250 6225 50  0000 C CNN
@@ -486,7 +486,7 @@ F 3 "" H 4250 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J13
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J13
 U 1 1 5A795B57
 P 4625 6125
 F 0 "J13" H 4625 6225 50  0000 C CNN
@@ -497,7 +497,7 @@ F 3 "" H 4625 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J15
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J15
 U 1 1 5A795C36
 P 5000 6125
 F 0 "J15" H 5000 6225 50  0000 C CNN
@@ -508,7 +508,7 @@ F 3 "" H 5000 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J17
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J17
 U 1 1 5A795F68
 P 5375 6125
 F 0 "J17" H 5375 6225 50  0000 C CNN
@@ -519,7 +519,7 @@ F 3 "" H 5375 6125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J5
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J5
 U 1 1 5A79612D
 P 3150 6475
 F 0 "J5" H 3150 6575 50  0000 C CNN
@@ -530,7 +530,7 @@ F 3 "" H 3150 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J7
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J7
 U 1 1 5A796216
 P 3525 6475
 F 0 "J7" H 3525 6575 50  0000 C CNN
@@ -541,7 +541,7 @@ F 3 "" H 3525 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J9
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J9
 U 1 1 5A796308
 P 3875 6475
 F 0 "J9" H 3875 6575 50  0000 C CNN
@@ -552,7 +552,7 @@ F 3 "" H 3875 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J12
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J12
 U 1 1 5A7963FD
 P 4250 6475
 F 0 "J12" H 4250 6575 50  0000 C CNN
@@ -563,7 +563,7 @@ F 3 "" H 4250 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J14
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J14
 U 1 1 5A7964F1
 P 4625 6475
 F 0 "J14" H 4625 6575 50  0000 C CNN
@@ -574,7 +574,7 @@ F 3 "" H 4625 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J16
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J16
 U 1 1 5A7965E2
 P 5000 6475
 F 0 "J16" H 5000 6575 50  0000 C CNN
@@ -585,7 +585,7 @@ F 3 "" H 5000 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J18
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J18
 U 1 1 5A7966DA
 P 5375 6475
 F 0 "J18" H 5375 6575 50  0000 C CNN
@@ -596,7 +596,7 @@ F 3 "" H 5375 6475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:SW_Push SW1
+L Atmega_328_breakout-rescue:SW_Push-Atmega_328_breakout-rescue SW1
 U 1 1 5A7A0DDC
 P 10005 9850
 F 0 "SW1" H 10055 9950 50  0000 L CNN
@@ -745,7 +745,7 @@ AREF
 Text GLabel 13850 2400 0    60   BiDi ~ 0
 ~RESET
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x08_Female J20
+L Atmega_328_breakout-rescue:Conn_01x08_Female-Atmega_328_breakout-rescue J20
 U 1 1 5FA81865
 P 7055 3315
 F 0 "J20" H 7055 3715 50  0000 C CNN
@@ -984,7 +984,7 @@ PB3
 Text GLabel 8900 2200 0    60   BiDi ~ 0
 PB5
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR029
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR029
 U 1 1 603E0012
 P 8350 2250
 F 0 "#PWR029" H 8350 2000 50  0001 C CNN
@@ -999,7 +999,7 @@ Wire Wire Line
 Text GLabel 8900 2000 0    60   BiDi ~ 0
 AREF
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x08_Female J21
+L Atmega_328_breakout-rescue:Conn_01x08_Female-Atmega_328_breakout-rescue J21
 U 1 1 5A754950
 P 9720 2300
 F 0 "J21" H 9720 2700 50  0000 C CNN
@@ -1084,7 +1084,7 @@ Wire Wire Line
 Text GLabel 2330 3700 0    60   BiDi ~ 0
 AGND
 $Comp
-L Atmega_328_breakout-rescue:+3.3V #PWR022
+L Atmega_328_breakout-rescue:+3.3V-Atmega_328_breakout-rescue #PWR022
 U 1 1 607E9458
 P 7150 5250
 F 0 "#PWR022" H 7150 5100 50  0001 C CNN
@@ -1175,7 +1175,7 @@ Wire Wire Line
 	3475 10475 3475 10550
 NoConn ~ 1000 6650
 $Comp
-L Atmega_328_breakout-rescue:Jack-DC J1
+L Atmega_328_breakout-rescue:Jack-DC-Atmega_328_breakout-rescue J1
 U 1 1 5A763139
 P 1000 6350
 F 0 "J1" H 1000 6560 50  0000 C CNN
@@ -1194,7 +1194,7 @@ Power Ciruits
 Text Label 3200 10325 0    60   ~ 0
 +5V
 $Comp
-L Atmega_328_breakout-rescue:Polyfuse F1
+L Atmega_328_breakout-rescue:Polyfuse-Atmega_328_breakout-rescue F1
 U 1 1 5A752E5D
 P 2800 10475
 F 0 "F1" V 2700 10475 50  0000 C CNN
@@ -1205,7 +1205,7 @@ F 3 "" H 2800 10475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:NCP1117-5.0_SOT223 U1
+L Atmega_328_breakout-rescue:NCP1117-5.0_SOT223-Atmega_328_breakout-rescue U1
 U 1 1 5A74A3EC
 P 1900 9950
 F 0 "U1" H 1750 10075 50  0000 C CNN
@@ -1216,7 +1216,7 @@ F 3 "" H 2000 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:D_Schottky D1
+L Atmega_328_breakout-rescue:D_Schottky-Atmega_328_breakout-rescue D1
 U 1 1 5A7455EF
 P 925 7850
 F 0 "D1" H 925 7950 50  0000 C CNN
@@ -1229,7 +1229,7 @@ $EndComp
 NoConn ~ 2800 9225
 NoConn ~ 2900 9225
 $Comp
-L Atmega_328_breakout-rescue:+5V #PWR08
+L Atmega_328_breakout-rescue:+5V-Atmega_328_breakout-rescue #PWR08
 U 1 1 5A749A57
 P 2700 8625
 F 0 "#PWR08" H 2700 8475 50  0001 C CNN
@@ -1262,7 +1262,7 @@ F 3 "" H 2100 9125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R1
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R1
 U 1 1 5A749034
 P 2100 8675
 F 0 "R1" V 2180 8675 50  0000 C CNN
@@ -1274,7 +1274,7 @@ F 3 "" H 2100 8675 50  0001 C CNN
 $EndComp
 Connection ~ 2100 8825
 $Comp
-L Atmega_328_breakout-rescue:R R2
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R2
 U 1 1 5A748DF6
 P 2100 8975
 F 0 "R2" V 2180 8975 50  0000 C CNN
@@ -1285,7 +1285,7 @@ F 3 "" H 2100 8975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:+5V #PWR07
+L Atmega_328_breakout-rescue:+5V-Atmega_328_breakout-rescue #PWR07
 U 1 1 5A748A91
 P 2350 9025
 F 0 "#PWR07" H 2350 8875 50  0001 C CNN
@@ -1307,7 +1307,7 @@ F 3 "" H 2950 9075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C7
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C7
 U 1 1 5A73EAA8
 P 4400 10650
 F 0 "C7" H 4410 10720 50  0000 L CNN
@@ -1318,7 +1318,7 @@ F 3 "" H 4400 10650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C2
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C2
 U 1 1 5A73EA32
 P 1575 10675
 F 0 "C2" H 1585 10745 50  0000 L CNN
@@ -1329,7 +1329,7 @@ F 3 "" H 1575 10675 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C6
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C6
 U 1 1 5A73E9CD
 P 3475 10650
 F 0 "C6" H 3485 10720 50  0000 L CNN
@@ -1340,7 +1340,7 @@ F 3 "" H 3475 10650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C5
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C5
 U 1 1 5A73E889
 P 2500 10650
 F 0 "C5" H 2510 10720 50  0000 L CNN
@@ -1351,7 +1351,7 @@ F 3 "" H 2500 10650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:L7805 U2
+L Atmega_328_breakout-rescue:L7805-Atmega_328_breakout-rescue U2
 U 1 1 5A73E2B6
 P 1975 10475
 F 0 "U2" H 1825 10600 50  0000 C CNN
@@ -1364,7 +1364,7 @@ $EndComp
 Text GLabel 1400 7350 2    60   BiDi ~ 0
 V_supply
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR024
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR024
 U 1 1 60D937B9
 P 7500 4900
 F 0 "#PWR024" H 7500 4650 50  0001 C CNN
@@ -1466,7 +1466,7 @@ PD6
 Text GLabel 13650 5600 0    60   BiDi ~ 0
 PD7
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR014
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR014
 U 1 1 5F94FF1F
 P 11600 6450
 F 0 "#PWR014" H 11600 6200 50  0001 C CNN
@@ -1477,7 +1477,7 @@ F 3 "" H 11600 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x06 J10
+L Atmega_328_breakout-rescue:Conn_01x06-Atmega_328_breakout-rescue J10
 U 1 1 5F94FF25
 P 12000 6700
 F 0 "J10" H 12000 7000 50  0000 C CNN
@@ -1488,7 +1488,7 @@ F 3 "" H 12000 6700 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:SW_Push SW2
+L Atmega_328_breakout-rescue:SW_Push-Atmega_328_breakout-rescue SW2
 U 1 1 5A7A20C0
 P 14750 6100
 F 0 "SW2" H 14800 6200 50  0000 L CNN
@@ -1499,7 +1499,7 @@ F 3 "" H 14750 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C13
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C13
 U 1 1 5A73C043
 P 15400 6100
 F 0 "C13" H 15410 6170 50  0000 L CNN
@@ -1510,7 +1510,7 @@ F 3 "" H 15400 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R9
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R9
 U 1 1 5A72F107
 P 15050 5500
 F 0 "R9" V 15144 5486 50  0000 C CNN
@@ -1540,7 +1540,7 @@ F 3 "" H 15050 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR042
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR042
 U 1 1 5A73DD3F
 P 15000 6550
 F 0 "#PWR042" H 15000 6300 50  0001 C CNN
@@ -1581,7 +1581,7 @@ XTAL1(PB6)
 Text GLabel 12750 1000 0    60   BiDi ~ 0
 XTAL2(PB7)
 $Comp
-L Atmega_328_breakout-rescue:Crystal Y1
+L Atmega_328_breakout-rescue:Crystal-Atmega_328_breakout-rescue Y1
 U 1 1 5A730179
 P 12550 1300
 F 0 "Y1" H 12550 1450 50  0000 C CNN
@@ -1636,7 +1636,7 @@ Wire Wire Line
 	2450 2750 2300 2750
 Connection ~ 2450 2850
 $Comp
-L Atmega_328_breakout-rescue:+5V #PWR040
+L Atmega_328_breakout-rescue:+5V-Atmega_328_breakout-rescue #PWR040
 U 1 1 60EFE064
 P 14100 3400
 F 0 "#PWR040" H 14100 3250 50  0001 C CNN
@@ -1658,7 +1658,7 @@ Connection ~ 15050 5700
 Wire Wire Line
 	15050 5700 15400 5700
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x02_Female J3
+L Atmega_328_breakout-rescue:Conn_01x02_Female-Atmega_328_breakout-rescue J3
 U 1 1 5A796047
 P 2775 6475
 F 0 "J3" H 2775 6575 50  0000 C CNN
@@ -1676,7 +1676,7 @@ Connection ~ 2950 3150
 Wire Wire Line
 	2950 3150 3300 3150
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR030
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR030
 U 1 1 60779CF8
 P 10050 5050
 F 0 "#PWR030" H 10050 4800 50  0001 C CNN
@@ -1687,7 +1687,7 @@ F 3 "" H 10050 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x03_Female J24
+L Atmega_328_breakout-rescue:Conn_01x03_Female-Atmega_328_breakout-rescue J24
 U 1 1 5A757345
 P 12400 3850
 F 0 "J24" H 12400 4050 50  0000 C CNN
@@ -1709,7 +1709,7 @@ F 3 "" H 11300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C10
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C10
 U 1 1 5A7A187A
 P 11300 3850
 F 0 "C10" H 11310 3920 50  0000 L CNN
@@ -1746,7 +1746,7 @@ Wire Wire Line
 Text GLabel 3350 9225 0    60   Input ~ 0
 VUSB
 $Comp
-L Atmega_328_breakout-rescue:+5V #PWR012
+L Atmega_328_breakout-rescue:+5V-Atmega_328_breakout-rescue #PWR012
 U 1 1 5A74AA13
 P 4175 9225
 F 0 "#PWR012" H 4175 9075 50  0001 C CNN
@@ -1759,7 +1759,7 @@ $EndComp
 Wire Wire Line
 	4175 9225 3950 9225
 $Comp
-L Atmega_328_breakout-rescue:Q_PMOS_SGD Q1
+L Atmega_328_breakout-rescue:Q_PMOS_SGD-Atmega_328_breakout-rescue Q1
 U 1 1 5A74A028
 P 3750 9125
 F 0 "Q1" H 3950 9175 50  0000 L CNN
@@ -1779,7 +1779,7 @@ Wire Wire Line
 	14400 8200 14250 8200
 Connection ~ 14400 8500
 $Comp
-L Atmega_328_breakout-rescue:+3.3V #PWR023
+L Atmega_328_breakout-rescue:+3.3V-Atmega_328_breakout-rescue #PWR023
 U 1 1 60BC2C21
 P 7650 2000
 F 0 "#PWR023" H 7650 1850 50  0001 C CNN
@@ -1790,7 +1790,7 @@ F 3 "" H 7650 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:+5V #PWR026
+L Atmega_328_breakout-rescue:+5V-Atmega_328_breakout-rescue #PWR026
 U 1 1 60BC2C27
 P 7850 2100
 F 0 "#PWR026" H 7850 1950 50  0001 C CNN
@@ -1824,7 +1824,7 @@ F 3 "" H 7850 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:C_Small C8
+L Atmega_328_breakout-rescue:C_Small-Atmega_328_breakout-rescue C8
 U 1 1 5A78FFB9
 P 6400 9850
 F 0 "C8" H 6410 9920 50  0000 L CNN
@@ -1835,7 +1835,7 @@ F 3 "" H 6400 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:LED D3
+L Atmega_328_breakout-rescue:LED-Atmega_328_breakout-rescue D3
 U 1 1 5A73B449
 P 5650 10050
 F 0 "D3" H 5650 10150 50  0000 C CNN
@@ -1846,7 +1846,7 @@ F 3 "" H 5650 10050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:R R5
+L Atmega_328_breakout-rescue:R-Atmega_328_breakout-rescue R5
 U 1 1 5A73B350
 P 5650 9750
 F 0 "R5" V 5730 9750 50  0000 C CNN
@@ -1857,7 +1857,7 @@ F 3 "" H 5650 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Ferrite_Bead_Small L1
+L Atmega_328_breakout-rescue:Ferrite_Bead_Small-Atmega_328_breakout-rescue L1
 U 1 1 5A73FFDC
 P 5500 9200
 F 0 "L1" H 5581 9224 50  0000 L CNN
@@ -1893,7 +1893,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 9950 6400 10450
 $Comp
-L Atmega_328_breakout-rescue:D_Zener D2
+L Atmega_328_breakout-rescue:D_Zener-Atmega_328_breakout-rescue D2
 U 1 1 5A77CE39
 P 5350 9750
 F 0 "D2" H 5350 9850 50  0000 C CNN
@@ -2277,7 +2277,7 @@ V_supply
 Wire Wire Line
 	5750 9600 6400 9600
 $Comp
-L Atmega_328_breakout-rescue:GND #PWR051
+L Atmega_328_breakout-rescue:GND-Atmega_328_breakout-rescue #PWR051
 U 1 1 61158164
 P 850 1500
 F 0 "#PWR051" H 850 1250 50  0001 C CNN
@@ -2369,7 +2369,7 @@ F 3 "~" H 1150 700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:MCP2221 U6
+L Atmega_328_breakout-rescue:MCP2221-Atmega_328_breakout-rescue U6
 U 1 1 5A743839
 P 13025 8700
 F 0 "U6" H 13350 9000 60  0000 C CNN
@@ -2382,7 +2382,7 @@ $EndComp
 NoConn ~ 13600 9100
 NoConn ~ 13600 9000
 $Comp
-L Atmega_328_breakout-rescue:ATMEL_SHIELD SHIELD1
+L Atmega_328_breakout-rescue:ATMEL_SHIELD-Atmega_328_breakout-rescue SHIELD1
 U 1 1 5A79E70E
 P 8400 5600
 F 0 "SHIELD1" H 8050 6550 60  0000 C CNN
