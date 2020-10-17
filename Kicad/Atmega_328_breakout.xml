@@ -1157,7 +1157,7 @@
       <uri>C:\Program Files\KiCad\share\kicad\library\atmel.lib</uri>
     </library>
     <library logical="Atmega_328_breakout-cache">
-      <uri>C:\Users\jstee\Documents\GitHub\Assorted_small_projects\BreakoutBodger Deluxe\Kicad\Atmega_328_breakout-cache.lib</uri>
+      <uri>C:\Workspace\Projects\BreakoutBodger-2-electric-boogaloo\Kicad\Atmega_328_breakout-cache.lib</uri>
     </library>
   </libraries>
   <nets>
