@@ -16,62 +16,62 @@ $EndDescr
 $Comp
 L Atmega_328_breakout-rescue:ATMEGA328P-AU U4
 U 1 1 5A72EFAD
-P 4200 3650
-F 0 "U4" H 3450 4900 50  0000 L BNN
-F 1 "ATMEGA328P-AU" H 4600 2250 50  0000 L BNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 4200 3650 50  0001 C CIN
-F 3 "" H 4200 3650 50  0001 C CNN
-F 4 "C132230" H 4200 3650 50  0001 C CNN "LCSC"
-	1    4200 3650
+P 3150 4350
+F 0 "U4" H 2400 5600 50  0000 L BNN
+F 1 "ATMEGA328P-AU" H 3550 2950 50  0000 L BNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3150 4350 50  0001 C CIN
+F 3 "" H 3150 4350 50  0001 C CNN
+F 4 "C132230" H 3150 4350 50  0001 C CNN "LCSC"
+	1    3150 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:GND #PWR05
 U 1 1 5A72F000
-P 3100 4900
-F 0 "#PWR05" H 3100 4650 50  0001 C CNN
-F 1 "GND" H 3100 4750 50  0000 C CNN
-F 2 "" H 3100 4900 50  0001 C CNN
-F 3 "" H 3100 4900 50  0001 C CNN
-	1    3100 4900
+P 2050 5600
+F 0 "#PWR05" H 2050 5350 50  0001 C CNN
+F 1 "GND" H 2050 5450 50  0000 C CNN
+F 2 "" H 2050 5600 50  0001 C CNN
+F 3 "" H 2050 5600 50  0001 C CNN
+	1    2050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C4
 U 1 1 5A72F1D1
-P 2950 3425
-F 0 "C4" H 2960 3495 50  0000 L CNN
-F 1 "100n" H 2960 3345 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2950 3425 50  0001 C CNN
-F 3 "" H 2950 3425 50  0001 C CNN
-F 4 "C14663" H 2950 3425 50  0001 C CNN "LCSC"
-	1    2950 3425
+P 1900 4125
+F 0 "C4" H 1910 4195 50  0000 L CNN
+F 1 "100n" H 1910 4045 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1900 4125 50  0001 C CNN
+F 3 "" H 1900 4125 50  0001 C CNN
+F 4 "C14663" H 1900 4125 50  0001 C CNN "LCSC"
+	1    1900 4125
 	-1   0    0    1   
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C1
 U 1 1 5A72F20F
-P 2450 3100
-F 0 "C1" H 2460 3170 50  0000 L CNN
-F 1 "100n" H 2460 3020 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2450 3100 50  0001 C CNN
-F 3 "" H 2450 3100 50  0001 C CNN
-F 4 "C14663" H 2450 3100 50  0001 C CNN "LCSC"
-	1    2450 3100
+P 1400 3800
+F 0 "C1" H 1410 3870 50  0000 L CNN
+F 1 "100n" H 1410 3720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1400 3800 50  0001 C CNN
+F 3 "" H 1400 3800 50  0001 C CNN
+F 4 "C14663" H 1400 3800 50  0001 C CNN "LCSC"
+	1    1400 3800
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR019
 U 1 1 5A72F39F
-P 5750 9350
-F 0 "#PWR019" H 5750 9200 50  0001 C CNN
-F 1 "VCC" H 5750 9500 50  0000 C CNN
-F 2 "" H 5750 9350 50  0001 C CNN
-F 3 "" H 5750 9350 50  0001 C CNN
-	1    5750 9350
+P 5400 9500
+F 0 "#PWR019" H 5400 9350 50  0001 C CNN
+F 1 "VCC" H 5400 9650 50  0000 C CNN
+F 2 "" H 5400 9500 50  0001 C CNN
+F 3 "" H 5400 9500 50  0001 C CNN
+	1    5400 9500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 10000 2    60   Input ~ 0
+Text GLabel 6300 9600 2    60   Input ~ 0
 AVCC
 $Comp
 L Atmega_328_breakout-rescue:GND #PWR046
@@ -110,48 +110,26 @@ $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C11
 U 1 1 5A7307FE
-P 12350 1650
-F 0 "C11" H 12360 1720 50  0000 L CNN
-F 1 "22p" H 12360 1570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 12350 1650 50  0001 C CNN
-F 3 "" H 12350 1650 50  0001 C CNN
-F 4 "C1653" H 12350 1650 50  0001 C CNN "LCSC"
-	1    12350 1650
+P 3650 1550
+F 0 "C11" H 3660 1620 50  0000 L CNN
+F 1 "22p" H 3660 1470 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3650 1550 50  0001 C CNN
+F 3 "" H 3650 1550 50  0001 C CNN
+F 4 "C1653" H 3650 1550 50  0001 C CNN "LCSC"
+	1    3650 1550
 	-1   0    0    1   
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C12
 U 1 1 5A7309D9
-P 12850 1650
-F 0 "C12" H 12860 1720 50  0000 L CNN
-F 1 "22p" H 12860 1570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 12850 1650 50  0001 C CNN
-F 3 "" H 12850 1650 50  0001 C CNN
-F 4 "C1653" H 12850 1650 50  0001 C CNN "LCSC"
-	1    12850 1650
+P 4150 1550
+F 0 "C12" H 4160 1620 50  0000 L CNN
+F 1 "22p" H 4160 1470 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4150 1550 50  0001 C CNN
+F 3 "" H 4150 1550 50  0001 C CNN
+F 4 "C1653" H 4150 1550 50  0001 C CNN "LCSC"
+	1    4150 1550
 	-1   0    0    1   
-$EndComp
-$Comp
-L Atmega_328_breakout-rescue:Ferrite_Bead_Small L3
-U 1 1 5A732638
-P 7050 10000
-F 0 "L3" H 7125 10050 50  0000 L CNN
-F 1 "F B" H 7125 9950 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6980 10000 50  0001 C CNN
-F 3 "" H 7050 10000 50  0001 C CNN
-	1    7050 10000
-	0    1    1    0   
-$EndComp
-$Comp
-L Atmega_328_breakout-rescue:Ferrite_Bead_Small L2
-U 1 1 5A732784
-P 7050 9750
-F 0 "L2" H 7125 9800 50  0000 L CNN
-F 1 "F B" H 7125 9700 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6980 9750 50  0001 C CNN
-F 3 "" H 7050 9750 50  0001 C CNN
-	1    7050 9750
-	0    1    1    0   
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:R R7
@@ -225,35 +203,35 @@ $EndComp
 $Comp
 L Atmega_328_breakout-rescue:+3.3V #PWR016
 U 1 1 5A7419EA
-P 5500 8350
-F 0 "#PWR016" H 5500 8200 50  0001 C CNN
-F 1 "+3.3V" H 5500 8490 50  0000 C CNN
-F 2 "" H 5500 8350 50  0001 C CNN
-F 3 "" H 5500 8350 50  0001 C CNN
-	1    5500 8350
+P 4950 8450
+F 0 "#PWR016" H 4950 8300 50  0001 C CNN
+F 1 "+3.3V" H 4950 8590 50  0000 C CNN
+F 2 "" H 4950 8450 50  0001 C CNN
+F 3 "" H 4950 8450 50  0001 C CNN
+	1    4950 8450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:R R3
 U 1 1 5A741F80
-P 5500 8800
-F 0 "R3" V 5580 8800 50  0000 C CNN
-F 1 "0.0R" V 5489 8811 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5430 8800 50  0001 C CNN
-F 3 "" H 5500 8800 50  0001 C CNN
-	1    5500 8800
+P 4950 8700
+F 0 "R3" V 5030 8700 50  0000 C CNN
+F 1 "0.0R" V 4939 8711 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 8700 50  0001 C CNN
+F 3 "" H 4950 8700 50  0001 C CNN
+	1    4950 8700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:R R4
 U 1 1 5A742113
-P 5850 8800
-F 0 "R4" V 5930 8800 50  0000 C CNN
-F 1 "0R" V 5839 8811 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5780 8800 50  0001 C CNN
-F 3 "" H 5850 8800 50  0001 C CNN
-F 4 "C21189" V 5850 8800 50  0001 C CNN "LCSC"
-	1    5850 8800
+P 5300 8700
+F 0 "R4" V 5380 8700 50  0000 C CNN
+F 1 "0R" V 5289 8711 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5230 8700 50  0001 C CNN
+F 3 "" H 5300 8700 50  0001 C CNN
+F 4 "C21189" V 5300 8700 50  0001 C CNN "LCSC"
+	1    5300 8700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -279,28 +257,6 @@ F 3 "" H 13900 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Conn_01x08_Female J22
-U 1 1 5A754CA0
-P 9730 3260
-F 0 "J22" H 9480 3660 50  0000 C CNN
-F 1 "PORD_connector" V 9855 3285 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9730 3260 50  0001 C CNN
-F 3 "" H 9730 3260 50  0001 C CNN
-	1    9730 3260
-	1    0    0    -1  
-$EndComp
-$Comp
-L Atmega_328_breakout-rescue:Conn_01x06_Female J19
-U 1 1 5A7558EF
-P 6800 2200
-F 0 "J19" H 6750 1675 50  0000 C CNN
-F 1 "Power_connector" V 6900 2150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6800 2200 50  0001 C CNN
-F 3 "" H 6800 2200 50  0001 C CNN
-	1    6800 2200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Atmega_328_breakout-rescue:Conn_02x05_Odd_Even J26
 U 1 1 5A7564A8
 P 14450 1100
@@ -311,22 +267,6 @@ F 3 "" H 14450 1100 50  0001 C CNN
 	1    14450 1100
 	1    0    0    -1  
 $EndComp
-Text Label 9080 3660 0    60   ~ 0
-PD0(RX)
-Text Label 9080 3560 0    60   ~ 0
-PD1(TX)
-Text Label 9080 3460 0    60   ~ 0
-PD2
-Text Label 9080 3360 0    60   ~ 0
-PD3
-Text Label 9080 3260 0    60   ~ 0
-PD4
-Text Label 9080 3160 0    60   ~ 0
-PD5
-Text Label 9080 3060 0    60   ~ 0
-PD6
-Text Label 9080 2960 0    60   ~ 0
-PD7
 $Comp
 L Atmega_328_breakout-rescue:GND #PWR037
 U 1 1 5A74E5EF
@@ -364,53 +304,49 @@ $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x09 J27
 U 1 1 5A755A32
-P 15200 3650
-F 0 "J27" H 15200 4150 50  0000 C CNN
-F 1 "Power terminal" H 15200 3150 50  0000 C CNN
-F 2 "jorgen:TerminalBlock_bornier-9_P5.08mm" H 15200 3650 50  0001 C CNN
-F 3 "" H 15200 3650 50  0001 C CNN
-	1    15200 3650
+P 15100 3950
+F 0 "J27" H 15100 4450 50  0000 C CNN
+F 1 "Power terminal" H 15100 3450 50  0000 C CNN
+F 2 "jorgen:TerminalBlock_bornier-9_P5.08mm" H 15100 3950 50  0001 C CNN
+F 3 "" H 15100 3950 50  0001 C CNN
+	1    15100 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:GND #PWR032
 U 1 1 5A75CA7B
-P 11300 4100
-F 0 "#PWR032" H 11300 3850 50  0001 C CNN
-F 1 "GND" H 11300 3950 50  0000 C CNN
-F 2 "" H 11300 4100 50  0001 C CNN
-F 3 "" H 11300 4100 50  0001 C CNN
-	1    11300 4100
+P 10750 2050
+F 0 "#PWR032" H 10750 1800 50  0001 C CNN
+F 1 "GND" H 10750 1900 50  0000 C CNN
+F 2 "" H 10750 2050 50  0001 C CNN
+F 3 "" H 10750 2050 50  0001 C CNN
+	1    10750 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x01 J23
 U 1 1 5A7639D5
-P 11650 3850
-F 0 "J23" H 11650 3950 50  0000 C CNN
-F 1 "Conn_01x01" H 11650 3750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11650 3850 50  0001 C CNN
-F 3 "" H 11650 3850 50  0001 C CNN
-	1    11650 3850
+P 11100 1800
+F 0 "J23" H 11100 1900 50  0000 C CNN
+F 1 "Conn_01x01" H 11100 1700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11100 1800 50  0001 C CNN
+F 3 "" H 11100 1800 50  0001 C CNN
+	1    11100 1800
 	-1   0    0    1   
 $EndComp
 Text Notes 13900 5100 0    60   ~ 0
 User Interface. Button and LED
-Text Notes 14300 2700 0    60   ~ 0
-Power screw Terminal
+Text Notes 14100 3050 0    60   ~ 0
+Screw Terminal
 Text Notes 14200 1850 0    60   ~ 0
 ISP Programmer
 Text Notes 13650 650  0    60   ~ 0
 Communication protocol Pin header\n
-Text Notes 10320 3100 0    60   ~ 0
-Device connector with open center for connecting:\nServos, sensor, etc. Bodge the center with you selected pin.\n
 Text Notes 13700 7975 0    60   ~ 0
 USB to serial\n
 Text Notes 9050 9050 0    60   ~ 0
 Reset button circuit
-Text Notes 7250 1400 0    60   ~ 0
-Normal Pin headers
-Text Notes 6200 8850 0    60   ~ 0
+Text Notes 5550 8700 0    60   ~ 0
 Connect the selected VCC, not both
 NoConn ~ 15300 9100
 NoConn ~ 13600 9200
@@ -420,178 +356,178 @@ NoConn ~ 12700 8700
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x03_Female J25
 U 1 1 5A797A34
-P 14400 3950
-F 0 "J25" H 14400 4150 50  0000 C CNN
-F 1 "Pin out" H 14400 4250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14400 3950 50  0001 C CNN
-F 3 "" H 14400 3950 50  0001 C CNN
-	1    14400 3950
+P 14300 4250
+F 0 "J25" H 14300 4450 50  0000 C CNN
+F 1 "Pin out" H 14300 4550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 14300 4250 50  0001 C CNN
+F 3 "" H 14300 4250 50  0001 C CNN
+	1    14300 4250
 	-1   0    0    1   
 $EndComp
 NoConn ~ 14900 8900
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J2
 U 1 1 5A794947
-P 2775 6125
-F 0 "J2" H 2775 6225 50  0000 C CNN
-F 1 "1x2" H 2675 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 2775 6125 50  0001 C CNN
-F 3 "" H 2775 6125 50  0001 C CNN
-	1    2775 6125
+P 9575 6575
+F 0 "J2" H 9575 6675 50  0000 C CNN
+F 1 "1x2" H 9475 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 9575 6575 50  0001 C CNN
+F 3 "" H 9575 6575 50  0001 C CNN
+	1    9575 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J4
 U 1 1 5A795805
-P 3150 6125
-F 0 "J4" H 3150 6225 50  0000 C CNN
-F 1 "1x2" H 3050 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 6125 50  0001 C CNN
-F 3 "" H 3150 6125 50  0001 C CNN
-	1    3150 6125
+P 9950 6575
+F 0 "J4" H 9950 6675 50  0000 C CNN
+F 1 "1x2" H 9850 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 9950 6575 50  0001 C CNN
+F 3 "" H 9950 6575 50  0001 C CNN
+	1    9950 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J6
 U 1 1 5A7958D6
-P 3525 6125
-F 0 "J6" H 3525 6225 50  0000 C CNN
-F 1 "1x2" H 3425 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 3525 6125 50  0001 C CNN
-F 3 "" H 3525 6125 50  0001 C CNN
-	1    3525 6125
+P 10325 6575
+F 0 "J6" H 10325 6675 50  0000 C CNN
+F 1 "1x2" H 10225 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 10325 6575 50  0001 C CNN
+F 3 "" H 10325 6575 50  0001 C CNN
+	1    10325 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J8
 U 1 1 5A7959A4
-P 3875 6125
-F 0 "J8" H 3875 6225 50  0000 C CNN
-F 1 "1x2" H 3775 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 3875 6125 50  0001 C CNN
-F 3 "" H 3875 6125 50  0001 C CNN
-	1    3875 6125
+P 10675 6575
+F 0 "J8" H 10675 6675 50  0000 C CNN
+F 1 "1x2" H 10575 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 10675 6575 50  0001 C CNN
+F 3 "" H 10675 6575 50  0001 C CNN
+	1    10675 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J11
 U 1 1 5A795A73
-P 4250 6125
-F 0 "J11" H 4250 6225 50  0000 C CNN
-F 1 "1x2" H 4150 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 4250 6125 50  0001 C CNN
-F 3 "" H 4250 6125 50  0001 C CNN
-	1    4250 6125
+P 11050 6575
+F 0 "J11" H 11050 6675 50  0000 C CNN
+F 1 "1x2" H 10950 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 11050 6575 50  0001 C CNN
+F 3 "" H 11050 6575 50  0001 C CNN
+	1    11050 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J13
 U 1 1 5A795B57
-P 4625 6125
-F 0 "J13" H 4625 6225 50  0000 C CNN
-F 1 "1x2" H 4525 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 4625 6125 50  0001 C CNN
-F 3 "" H 4625 6125 50  0001 C CNN
-	1    4625 6125
+P 11425 6575
+F 0 "J13" H 11425 6675 50  0000 C CNN
+F 1 "1x2" H 11325 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 11425 6575 50  0001 C CNN
+F 3 "" H 11425 6575 50  0001 C CNN
+	1    11425 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J15
 U 1 1 5A795C36
-P 5000 6125
-F 0 "J15" H 5000 6225 50  0000 C CNN
-F 1 "1x2" H 4900 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 5000 6125 50  0001 C CNN
-F 3 "" H 5000 6125 50  0001 C CNN
-	1    5000 6125
+P 11800 6575
+F 0 "J15" H 11800 6675 50  0000 C CNN
+F 1 "1x2" H 11700 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 11800 6575 50  0001 C CNN
+F 3 "" H 11800 6575 50  0001 C CNN
+	1    11800 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J17
 U 1 1 5A795F68
-P 5375 6125
-F 0 "J17" H 5375 6225 50  0000 C CNN
-F 1 "1x2" H 5275 5950 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 5375 6125 50  0001 C CNN
-F 3 "" H 5375 6125 50  0001 C CNN
-	1    5375 6125
+P 12175 6575
+F 0 "J17" H 12175 6675 50  0000 C CNN
+F 1 "1x2" H 12075 6400 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 12175 6575 50  0001 C CNN
+F 3 "" H 12175 6575 50  0001 C CNN
+	1    12175 6575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J5
 U 1 1 5A79612D
-P 3150 6475
-F 0 "J5" H 3150 6575 50  0000 C CNN
-F 1 "1x2" H 3050 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 3150 6475 50  0001 C CNN
-F 3 "" H 3150 6475 50  0001 C CNN
-	1    3150 6475
+P 9950 6925
+F 0 "J5" H 9950 7025 50  0000 C CNN
+F 1 "1x2" H 9850 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 9950 6925 50  0001 C CNN
+F 3 "" H 9950 6925 50  0001 C CNN
+	1    9950 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J7
 U 1 1 5A796216
-P 3525 6475
-F 0 "J7" H 3525 6575 50  0000 C CNN
-F 1 "1x2" H 3425 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 3525 6475 50  0001 C CNN
-F 3 "" H 3525 6475 50  0001 C CNN
-	1    3525 6475
+P 10325 6925
+F 0 "J7" H 10325 7025 50  0000 C CNN
+F 1 "1x2" H 10225 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 10325 6925 50  0001 C CNN
+F 3 "" H 10325 6925 50  0001 C CNN
+	1    10325 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J9
 U 1 1 5A796308
-P 3875 6475
-F 0 "J9" H 3875 6575 50  0000 C CNN
-F 1 "1x2" H 3775 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 3875 6475 50  0001 C CNN
-F 3 "" H 3875 6475 50  0001 C CNN
-	1    3875 6475
+P 10675 6925
+F 0 "J9" H 10675 7025 50  0000 C CNN
+F 1 "1x2" H 10575 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 10675 6925 50  0001 C CNN
+F 3 "" H 10675 6925 50  0001 C CNN
+	1    10675 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J12
 U 1 1 5A7963FD
-P 4250 6475
-F 0 "J12" H 4250 6575 50  0000 C CNN
-F 1 "1x2" H 4150 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 4250 6475 50  0001 C CNN
-F 3 "" H 4250 6475 50  0001 C CNN
-	1    4250 6475
+P 11050 6925
+F 0 "J12" H 11050 7025 50  0000 C CNN
+F 1 "1x2" H 10950 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 11050 6925 50  0001 C CNN
+F 3 "" H 11050 6925 50  0001 C CNN
+	1    11050 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J14
 U 1 1 5A7964F1
-P 4625 6475
-F 0 "J14" H 4625 6575 50  0000 C CNN
-F 1 "1x2" H 4525 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 4625 6475 50  0001 C CNN
-F 3 "" H 4625 6475 50  0001 C CNN
-	1    4625 6475
+P 11425 6925
+F 0 "J14" H 11425 7025 50  0000 C CNN
+F 1 "1x2" H 11325 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 11425 6925 50  0001 C CNN
+F 3 "" H 11425 6925 50  0001 C CNN
+	1    11425 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J16
 U 1 1 5A7965E2
-P 5000 6475
-F 0 "J16" H 5000 6575 50  0000 C CNN
-F 1 "1x2" H 4900 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 5000 6475 50  0001 C CNN
-F 3 "" H 5000 6475 50  0001 C CNN
-	1    5000 6475
+P 11800 6925
+F 0 "J16" H 11800 7025 50  0000 C CNN
+F 1 "1x2" H 11700 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 11800 6925 50  0001 C CNN
+F 3 "" H 11800 6925 50  0001 C CNN
+	1    11800 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J18
 U 1 1 5A7966DA
-P 5375 6475
-F 0 "J18" H 5375 6575 50  0000 C CNN
-F 1 "1x2" H 5275 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 5375 6475 50  0001 C CNN
-F 3 "" H 5375 6475 50  0001 C CNN
-	1    5375 6475
+P 12175 6925
+F 0 "J18" H 12175 7025 50  0000 C CNN
+F 1 "1x2" H 12075 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 12175 6925 50  0001 C CNN
+F 3 "" H 12175 6925 50  0001 C CNN
+	1    12175 6925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -600,21 +536,21 @@ U 1 1 5A7A0DDC
 P 10005 9850
 F 0 "SW1" H 10055 9950 50  0000 L CNN
 F 1 "SW_Push" H 10005 9790 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 10005 10050 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 10005 10050 50  0001 C CNN
 F 3 "" H 10005 10050 50  0001 C CNN
 	1    10005 9850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 2550 3300 2550
+	1950 3250 2250 3250
 Wire Wire Line
-	3000 2650 3300 2650
-Connection ~ 3000 2550
+	1950 3350 2250 3350
+Connection ~ 1950 3250
 Wire Wire Line
-	3300 4850 3100 4850
+	2250 5550 2050 5550
 Wire Wire Line
-	3100 4750 3300 4750
-Connection ~ 3100 4850
+	2050 5450 2250 5450
+Connection ~ 2050 5550
 Wire Wire Line
 	9125 9625 9125 9750
 Connection ~ 9125 9750
@@ -629,11 +565,11 @@ Connection ~ 9125 10250
 Wire Wire Line
 	9125 9850 9300 9850
 Wire Wire Line
-	2950 3325 2950 3150
+	1900 4025 1900 3850
 Wire Wire Line
-	3100 4750 3100 4850
+	2050 5450 2050 5550
 Wire Wire Line
-	2950 3700 2950 3525
+	1900 4400 1900 4225
 Wire Wire Line
 	13600 8900 14400 8900
 Wire Wire Line
@@ -671,60 +607,60 @@ Wire Wire Line
 	15775 9150 15200 9150
 Connection ~ 15200 9150
 Wire Wire Line
-	15000 4050 14600 4050
+	14900 4350 14500 4350
 Wire Wire Line
-	15000 3950 14600 3950
+	14900 4250 14500 4250
 Wire Wire Line
-	15000 3850 14600 3850
+	14900 4150 14500 4150
 Wire Wire Line
-	3300 2850 2450 2850
+	2250 3550 1400 3550
 Wire Wire Line
-	2450 2850 2450 3000
+	1400 3550 1400 3700
 Wire Wire Line
-	2575 6125 2575 6225
+	9375 6575 9375 6675
 Wire Wire Line
-	5175 6225 5175 6125
+	11975 6675 11975 6575
 Wire Wire Line
-	5175 6575 5175 6475
+	11975 7025 11975 6925
 Wire Wire Line
-	4800 6575 4800 6475
+	11600 7025 11600 6925
 Wire Wire Line
-	4800 6225 4800 6125
+	11600 6675 11600 6575
 Wire Wire Line
-	4425 6225 4425 6125
+	11225 6675 11225 6575
 Wire Wire Line
-	4050 6225 4050 6125
+	10850 6675 10850 6575
 Wire Wire Line
-	3675 6225 3675 6125
+	10475 6675 10475 6575
 Wire Wire Line
-	3325 6225 3325 6125
+	10125 6675 10125 6575
 Wire Wire Line
-	2950 6225 2950 6125
+	9750 6675 9750 6575
 Wire Wire Line
-	2575 6575 2575 6475
+	9375 7025 9375 6925
 Wire Wire Line
-	2950 6575 2950 6475
+	9750 7025 9750 6925
 Wire Wire Line
-	3325 6575 3325 6475
+	10125 7025 10125 6925
 Wire Wire Line
-	3675 6575 3675 6475
+	10475 7025 10475 6925
 Wire Wire Line
-	4050 6575 4050 6475
+	10850 7025 10850 6925
 Wire Wire Line
-	4425 6575 4425 6475
+	11225 7025 11225 6925
 Wire Wire Line
-	2330 3700 2450 3700
+	1280 4400 1400 4400
 Wire Wire Line
-	2450 3200 2450 3700
-Connection ~ 2450 3700
+	1400 3900 1400 4400
+Connection ~ 1400 4400
 Wire Wire Line
 	9600 9850 9805 9850
 Wire Wire Line
 	10205 9850 10450 9850
 Wire Wire Line
-	3000 2550 3000 2650
+	1950 3250 1950 3350
 Wire Wire Line
-	3100 4850 3100 4900
+	2050 5550 2050 5600
 Wire Wire Line
 	9125 9750 9125 9850
 Wire Wire Line
@@ -736,440 +672,117 @@ Wire Wire Line
 Wire Wire Line
 	15200 9150 15200 9175
 Wire Wire Line
-	2450 3700 2950 3700
-Text GLabel 7300 9750 2    60   Input ~ 0
+	1400 4400 1900 4400
+Text GLabel 6300 9350 2    60   Input ~ 0
 AREF
 Text GLabel 13850 2400 0    60   BiDi ~ 0
 ~RESET
-$Comp
-L Atmega_328_breakout-rescue:Conn_01x08_Female J20
-U 1 1 5FA81865
-P 7055 3315
-F 0 "J20" H 7055 3715 50  0000 C CNN
-F 1 "ADC_Connector" V 7155 3290 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7055 3315 50  0001 C CNN
-F 3 "" H 7055 3315 50  0001 C CNN
-	1    7055 3315
-	-1   0    0    -1  
-$EndComp
-Text GLabel 7300 6300 0    60   BiDi ~ 0
-PC4(SDA)
-Text GLabel 7300 6400 0    60   BiDi ~ 0
-PC5(SCL)
-Text GLabel 7300 5900 0    60   BiDi ~ 0
-PC0
-Text GLabel 7300 6000 0    60   BiDi ~ 0
+Text GLabel 4600 4200 2    60   BiDi ~ 0
 PC1
-Text GLabel 7300 6100 0    60   BiDi ~ 0
-PC2
-Text GLabel 7300 6200 0    60   BiDi ~ 0
-PC3
-Wire Wire Line
-	7605 3315 7255 3315
-Wire Wire Line
-	7605 3215 7255 3215
-Wire Wire Line
-	7605 3115 7255 3115
-Wire Wire Line
-	7255 3015 7605 3015
-Wire Wire Line
-	7255 3715 7605 3715
-Wire Wire Line
-	7605 3615 7255 3615
-Wire Wire Line
-	7605 3515 7255 3515
-Text GLabel 7605 3315 2    60   BiDi ~ 0
-PC3
-Text GLabel 7605 3215 2    60   BiDi ~ 0
-PC2
-Text GLabel 7605 3115 2    60   BiDi ~ 0
-PC1
-Text GLabel 7605 3015 2    60   BiDi ~ 0
+Text GLabel 4600 4100 2    60   BiDi ~ 0
 PC0
-Text GLabel 7605 3715 2    60   BiDi ~ 0
+Text GLabel 1850 4700 0    60   BiDi ~ 0
 ADC7
-Text GLabel 7605 3615 2    60   BiDi ~ 0
+Text GLabel 1850 4600 0    60   BiDi ~ 0
 ADC6
-Text GLabel 7605 3515 2    60   BiDi ~ 0
-PC5(SCL)
-Wire Wire Line
-	7255 3415 7605 3415
-Text GLabel 7605 3415 2    60   BiDi ~ 0
+Text GLabel 4600 4500 2    60   BiDi ~ 0
 PC4(SDA)
-Text GLabel 5650 3500 2    60   BiDi ~ 0
-PC1
-Text GLabel 5650 3400 2    60   BiDi ~ 0
-PC0
-Text GLabel 2900 4000 0    60   BiDi ~ 0
-ADC7
-Text GLabel 2900 3900 0    60   BiDi ~ 0
-ADC6
-Text GLabel 5650 3800 2    60   BiDi ~ 0
-PC4(SDA)
-Text GLabel 5650 3600 2    60   BiDi ~ 0
+Text GLabel 4600 4300 2    60   BiDi ~ 0
 PC2
-Text GLabel 5650 3700 2    60   BiDi ~ 0
+Text GLabel 4600 4400 2    60   BiDi ~ 0
 PC3
 Wire Wire Line
-	5650 3400 5200 3400
+	4600 4100 4150 4100
 Wire Wire Line
-	5200 3500 5650 3500
+	4150 4200 4600 4200
 Wire Wire Line
-	5200 3600 5650 3600
+	4150 4300 4600 4300
 Wire Wire Line
-	5200 3700 5650 3700
+	4150 4400 4600 4400
 Wire Wire Line
-	5200 3800 5650 3800
+	4150 4500 4600 4500
 Wire Wire Line
-	5200 3900 5650 3900
-Text GLabel 5650 2650 2    60   BiDi ~ 0
+	4150 4600 4600 4600
+Text GLabel 4600 3350 2    60   BiDi ~ 0
 PB1
-Text GLabel 5650 2550 2    60   BiDi ~ 0
+Text GLabel 4600 3250 2    60   BiDi ~ 0
 PB0
-Text GLabel 5650 3250 2    60   BiDi ~ 0
+Text GLabel 4600 3950 2    60   BiDi ~ 0
 XTAL2(PB7)
-Text GLabel 5650 3150 2    60   BiDi ~ 0
+Text GLabel 4600 3850 2    60   BiDi ~ 0
 XTAL1(PB6)
-Text GLabel 5650 2950 2    60   BiDi ~ 0
+Text GLabel 4600 3650 2    60   BiDi ~ 0
 PB4
-Text GLabel 5650 2750 2    60   BiDi ~ 0
+Text GLabel 4600 3450 2    60   BiDi ~ 0
 PB2
-Text GLabel 5650 2850 2    60   BiDi ~ 0
+Text GLabel 4600 3550 2    60   BiDi ~ 0
 PB3
 Wire Wire Line
-	5650 2550 5200 2550
+	4600 3250 4150 3250
 Wire Wire Line
-	5200 2650 5650 2650
+	4150 3350 4600 3350
 Wire Wire Line
-	5200 2750 5650 2750
+	4150 3450 4600 3450
 Wire Wire Line
-	5200 2850 5650 2850
+	4150 3550 4600 3550
 Wire Wire Line
-	5200 2950 5650 2950
+	4150 3650 4600 3650
 Wire Wire Line
-	5200 3150 5650 3150
+	4150 3850 4600 3850
 Wire Wire Line
-	5200 3250 5650 3250
-Text GLabel 5650 4250 2    60   BiDi ~ 0
+	4150 3950 4600 3950
+Text GLabel 4600 4950 2    60   BiDi ~ 0
 PD1(TX)
-Text GLabel 5650 4150 2    60   BiDi ~ 0
+Text GLabel 4600 4850 2    60   BiDi ~ 0
 PD0(RX)
-Text GLabel 5650 4750 2    60   BiDi ~ 0
+Text GLabel 4600 5450 2    60   BiDi ~ 0
 PD6
-Text GLabel 5650 4650 2    60   BiDi ~ 0
+Text GLabel 4600 5350 2    60   BiDi ~ 0
 PD5
-Text GLabel 5650 4550 2    60   BiDi ~ 0
+Text GLabel 4600 5250 2    60   BiDi ~ 0
 PD4
-Text GLabel 5650 4350 2    60   BiDi ~ 0
+Text GLabel 4600 5050 2    60   BiDi ~ 0
 PD2
-Text GLabel 5650 4450 2    60   BiDi ~ 0
+Text GLabel 4600 5150 2    60   BiDi ~ 0
 PD3
 Wire Wire Line
-	5650 4150 5200 4150
+	4600 4850 4150 4850
 Wire Wire Line
-	5200 4250 5650 4250
+	4150 4950 4600 4950
 Wire Wire Line
-	5200 4350 5650 4350
+	4150 5050 4600 5050
 Wire Wire Line
-	5200 4450 5650 4450
+	4150 5150 4600 5150
 Wire Wire Line
-	5200 4550 5650 4550
+	4150 5250 4600 5250
 Wire Wire Line
-	5200 4650 5650 4650
+	4150 5350 4600 5350
 Wire Wire Line
-	5200 4750 5650 4750
-Text GLabel 5650 4850 2    60   BiDi ~ 0
+	4150 5450 4600 5450
+Text GLabel 4600 5550 2    60   BiDi ~ 0
 PD7
 Wire Wire Line
-	5200 4850 5650 4850
-Text GLabel 5650 3900 2    60   BiDi ~ 0
+	4150 5550 4600 5550
+Text GLabel 4600 4600 2    60   BiDi ~ 0
 PC5(SCL)
-Text GLabel 6150 4000 2    60   Input ~ 0
-~RESET
 Wire Wire Line
-	5200 4000 6150 4000
-Text GLabel 7200 2400 2    60   BiDi ~ 0
-V_supply
-Text GLabel 7200 2300 2    60   BiDi ~ 0
-AGND
-Text GLabel 5650 3050 2    60   BiDi ~ 0
+	4150 4700 5100 4700
+Text GLabel 4600 3750 2    60   BiDi ~ 0
 PB5
 Wire Wire Line
-	5200 3050 5650 3050
-Text GLabel 7300 5700 0    60   BiDi ~ 0
-V_supply
-Text GLabel 7300 5600 0    60   Input ~ 0
+	4150 3750 4600 3750
+Text GLabel 1280 4400 0    60   BiDi ~ 0
 AGND
-Text GLabel 9500 5800 2    60   BiDi ~ 0
-PD6
-Text GLabel 9500 5900 2    60   BiDi ~ 0
-PD5
-Text GLabel 9500 6000 2    60   BiDi ~ 0
-PD4
-Text GLabel 9500 6100 2    60   BiDi ~ 0
-PD3
-Text GLabel 9500 5700 2    60   BiDi ~ 0
-PD7
-Text GLabel 9500 5400 2    60   BiDi ~ 0
-PB1
-Text GLabel 9500 5500 2    60   BiDi ~ 0
-PB0
-Text GLabel 9500 5100 2    60   BiDi ~ 0
-PB4
-Text GLabel 9500 5300 2    60   BiDi ~ 0
-PB2
-Text GLabel 9500 5200 2    60   BiDi ~ 0
-PB3
-Text GLabel 9500 5000 2    60   BiDi ~ 0
-PB5
-Wire Wire Line
-	9500 5100 9350 5100
-Wire Wire Line
-	9500 5200 9350 5200
-Wire Wire Line
-	9500 5300 9350 5300
-Wire Wire Line
-	9500 5400 9350 5400
-Wire Wire Line
-	9500 5500 9350 5500
-Wire Wire Line
-	9500 5700 9350 5700
-Wire Wire Line
-	9500 5800 9350 5800
-Wire Wire Line
-	9500 5900 9350 5900
-Wire Wire Line
-	9500 6000 9350 6000
-Wire Wire Line
-	9500 6100 9350 6100
-Wire Wire Line
-	9500 6200 9350 6200
-Wire Wire Line
-	9500 5000 9350 5000
-Wire Wire Line
-	10050 5050 10050 4900
-Wire Wire Line
-	10050 4900 9350 4900
-Text GLabel 9500 4800 2    60   Output ~ 0
-AREF
-Wire Wire Line
-	9500 4800 9350 4800
-Text Label 9150 2100 0    60   ~ 0
-GND
-Text Label 9150 2200 0    60   ~ 0
-PB5
-Text Label 9150 2300 0    60   ~ 0
-PB4
-Text Label 9150 2400 0    60   ~ 0
-PB3
-Text Label 9150 2500 0    60   ~ 0
-PB2
-Text Label 9150 2600 0    60   ~ 0
-PB1
-Text Label 9150 2700 0    60   ~ 0
-PB0
-Text GLabel 8900 2600 0    60   BiDi ~ 0
-PB1
-Text GLabel 8900 2700 0    60   BiDi ~ 0
-PB0
-Text GLabel 8900 2300 0    60   BiDi ~ 0
-PB4
-Text GLabel 8900 2500 0    60   BiDi ~ 0
-PB2
-Text GLabel 8900 2400 0    60   BiDi ~ 0
-PB3
-Text GLabel 8900 2200 0    60   BiDi ~ 0
-PB5
-$Comp
-L Atmega_328_breakout-rescue:GND #PWR029
-U 1 1 603E0012
-P 8350 2250
-F 0 "#PWR029" H 8350 2000 50  0001 C CNN
-F 1 "GND" H 8350 2100 50  0000 C CNN
-F 2 "" H 8350 2250 50  0001 C CNN
-F 3 "" H 8350 2250 50  0001 C CNN
-	1    8350 2250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 2250 8350 2100
-Text GLabel 8900 2000 0    60   BiDi ~ 0
-AREF
-$Comp
-L Atmega_328_breakout-rescue:Conn_01x08_Female J21
-U 1 1 5A754950
-P 9720 2300
-F 0 "J21" H 9720 2700 50  0000 C CNN
-F 1 "PORB++_connector" V 9870 2275 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9720 2300 50  0001 C CNN
-F 3 "" H 9720 2300 50  0001 C CNN
-	1    9720 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 2000 9520 2000
-Wire Wire Line
-	8350 2100 9520 2100
-Wire Wire Line
-	8900 2700 9520 2700
-Wire Wire Line
-	8900 2600 9520 2600
-Wire Wire Line
-	8900 2500 9520 2500
-Wire Wire Line
-	8900 2400 9520 2400
-Wire Wire Line
-	8900 2300 9520 2300
-Wire Wire Line
-	8900 2200 9520 2200
-Connection ~ 9520 2000
-Wire Wire Line
-	9520 2000 9525 2000
-Connection ~ 9520 2100
-Wire Wire Line
-	9520 2100 9525 2100
-Connection ~ 9520 2200
-Wire Wire Line
-	9520 2200 9525 2200
-Connection ~ 9520 2300
-Wire Wire Line
-	9520 2300 9525 2300
-Connection ~ 9520 2400
-Wire Wire Line
-	9520 2400 9525 2400
-Connection ~ 9520 2500
-Wire Wire Line
-	9520 2500 9525 2500
-Connection ~ 9520 2600
-Wire Wire Line
-	9520 2600 9525 2600
-Connection ~ 9520 2700
-Wire Wire Line
-	9520 2700 9525 2700
-Text GLabel 8905 2960 0    60   BiDi ~ 0
-PD7
-Text GLabel 8905 3360 0    60   BiDi ~ 0
-PD3
-Text GLabel 8905 3460 0    60   BiDi ~ 0
-PD2
-Text GLabel 8905 3260 0    60   BiDi ~ 0
-PD4
-Text GLabel 8905 3160 0    60   BiDi ~ 0
-PD5
-Text GLabel 8905 3060 0    60   BiDi ~ 0
-PD6
-Text GLabel 8905 3660 0    60   BiDi ~ 0
-PD0(RX)
-Text GLabel 8905 3560 0    60   BiDi ~ 0
-PD1(TX)
-Wire Wire Line
-	8905 2960 9530 2960
-Wire Wire Line
-	8905 3060 9530 3060
-Wire Wire Line
-	8905 3160 9530 3160
-Wire Wire Line
-	8905 3260 9530 3260
-Wire Wire Line
-	8905 3360 9530 3360
-Wire Wire Line
-	8905 3460 9530 3460
-Wire Wire Line
-	8905 3560 9530 3560
-Wire Wire Line
-	8905 3660 9530 3660
-Text GLabel 2330 3700 0    60   BiDi ~ 0
-AGND
-$Comp
-L Atmega_328_breakout-rescue:+3.3V #PWR022
-U 1 1 607E9458
-P 7150 5250
-F 0 "#PWR022" H 7150 5100 50  0001 C CNN
-F 1 "+3.3V" H 7150 5390 50  0000 C CNN
-F 2 "" H 7150 5250 50  0001 C CNN
-F 3 "" H 7150 5250 50  0001 C CNN
-	1    7150 5250
-	1    0    0    -1  
-$EndComp
-Text GLabel 2850 4650 0    60   BiDi ~ 0
+Text GLabel 1800 5350 0    60   BiDi ~ 0
 AGND
 Wire Wire Line
-	7150 5300 7150 5250
-$Comp
-L power:+5V #PWR021
-U 1 1 60AFBC2C
-P 7000 5350
-F 0 "#PWR021" H 7000 5200 50  0001 C CNN
-F 1 "+5V" H 7000 5490 50  0000 C CNN
-F 2 "" H 7000 5350 50  0001 C CNN
-F 3 "" H 7000 5350 50  0001 C CNN
-	1    7000 5350
-	1    0    0    -1  
-$EndComp
+	1450 7800 1450 7875
 Wire Wire Line
-	7000 5400 7000 5350
+	3100 8275 2450 8275
 Wire Wire Line
-	925  7600 925  7700
+	1850 8175 1450 8175
 Wire Wire Line
-	1575 10475 1575 10575
-Wire Wire Line
-	2500 10475 2500 10550
-Wire Wire Line
-	1100 7600 925  7600
-Wire Wire Line
-	1675 10475 1575 10475
-Connection ~ 3200 10475
-Wire Wire Line
-	2950 10475 3200 10475
-Wire Wire Line
-	2100 8450 2100 8525
-Wire Wire Line
-	925  8450 925  9950
-Wire Wire Line
-	925  8000 925  8450
-Connection ~ 925  8450
-Wire Wire Line
-	3750 8925 3100 8925
-Wire Wire Line
-	1975 10775 1975 10950
-Wire Wire Line
-	2500 8825 2100 8825
-Wire Wire Line
-	2350 9025 2500 9025
-Wire Wire Line
-	1975 10950 2500 10950
-Connection ~ 2500 10950
-Wire Wire Line
-	2500 10750 2500 10950
-Connection ~ 3475 10950
-Wire Wire Line
-	3475 10750 3475 10950
-Wire Wire Line
-	4400 10950 4400 10750
-Wire Wire Line
-	1575 10950 1575 10775
-Connection ~ 1975 10950
-Wire Wire Line
-	1575 10950 1975 10950
-Wire Wire Line
-	4150 10475 4400 10475
-Connection ~ 1575 10475
-Wire Wire Line
-	1575 9950 1575 10475
-Wire Wire Line
-	2500 10475 2650 10475
-Wire Wire Line
-	2275 10475 2500 10475
-Connection ~ 2500 10475
-Wire Wire Line
-	2500 9950 2500 10475
-Wire Wire Line
-	3200 10475 3475 10475
-Wire Wire Line
-	3475 10475 3550 10475
-Connection ~ 3475 10475
-Wire Wire Line
-	3475 10475 3475 10550
+	1700 8375 1850 8375
 NoConn ~ 1000 6650
 $Comp
 L Atmega_328_breakout-rescue:Jack-DC J1
@@ -1177,257 +790,197 @@ U 1 1 5A763139
 P 1000 6350
 F 0 "J1" H 1000 6560 50  0000 C CNN
 F 1 "Jack-DC" H 1000 6175 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1050 6310 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 1050 6310 50  0001 C CNN
 F 3 "" H 1050 6310 50  0001 C CNN
 	1    1000 6350
 	0    1    1    0   
 $EndComp
-Text Notes 625  10675 0    60   ~ 0
-1 small regulator\n            or\n1 big regulartor\nOne for any need
-Text Notes 2175 8250 0    60   ~ 0
+Text Notes 1700 7550 0    60   ~ 0
 USB reverse voltage protection
-Text Notes 3950 7500 0    118  ~ 0
+Text Notes 3200 6750 0    118  ~ 0
 Power Ciruits
-Text Label 3200 10325 0    60   ~ 0
-+5V
 $Comp
 L Atmega_328_breakout-rescue:Polyfuse F1
 U 1 1 5A752E5D
-P 2800 10475
-F 0 "F1" V 2700 10475 50  0000 C CNN
-F 1 "Polyfuse" V 2900 10475 50  0000 C CNN
-F 2 "jorgen:Polyfuse" H 2850 10275 50  0001 L CNN
-F 3 "" H 2800 10475 50  0001 C CNN
-	1    2800 10475
-	0    1    1    0   
+P 4950 9150
+F 0 "F1" V 4850 9150 50  0000 C CNN
+F 1 "Polyfuse" V 5050 9150 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 8950 50  0001 L CNN
+F 3 "" H 4950 9150 50  0001 C CNN
+	1    4950 9150
+	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:NCP1117-5.0_SOT223 U1
 U 1 1 5A74A3EC
-P 1900 9950
-F 0 "U1" H 1750 10075 50  0000 C CNN
-F 1 "NCP1117-5" H 1900 10075 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 10150 50  0001 C CNN
-F 3 "" H 2000 9700 50  0001 C CNN
-F 4 "" H 1900 9950 50  0001 C CNN "LCSC"
-	1    1900 9950
+P 1500 9850
+F 0 "U1" H 1350 9975 50  0000 C CNN
+F 1 "NCP1117-5" H 1500 9975 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1500 10050 50  0001 C CNN
+F 3 "" H 1600 9600 50  0001 C CNN
+F 4 "" H 1500 9850 50  0001 C CNN "LCSC"
+	1    1500 9850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:D_Schottky D1
 U 1 1 5A7455EF
-P 925 7850
-F 0 "D1" H 925 7950 50  0000 C CNN
-F 1 "D_Schottky" H 925 7750 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_KathodeUp" H 925 7850 50  0001 C CNN
-F 3 "" H 925 7850 50  0001 C CNN
-	1    925  7850
+P 1100 7400
+F 0 "D1" H 1100 7500 50  0000 C CNN
+F 1 "D_Schottky" H 1100 7300 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_KathodeUp" H 1100 7400 50  0001 C CNN
+F 3 "" H 1100 7400 50  0001 C CNN
+	1    1100 7400
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 2800 9225
-NoConn ~ 2900 9225
+NoConn ~ 2150 8575
+NoConn ~ 2250 8575
 $Comp
 L Atmega_328_breakout-rescue:+5V #PWR08
 U 1 1 5A749A57
-P 2700 8625
-F 0 "#PWR08" H 2700 8475 50  0001 C CNN
-F 1 "+5V" H 2700 8765 50  0000 C CNN
-F 2 "" H 2700 8625 50  0001 C CNN
-F 3 "" H 2700 8625 50  0001 C CNN
-	1    2700 8625
+P 2050 7975
+F 0 "#PWR08" H 2050 7825 50  0001 C CNN
+F 1 "+5V" H 2050 8115 50  0000 C CNN
+F 2 "" H 2050 7975 50  0001 C CNN
+F 3 "" H 2050 7975 50  0001 C CNN
+	1    2050 7975
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5A7499E0
-P 2700 9225
-F 0 "#PWR09" H 2700 8975 50  0001 C CNN
-F 1 "GND" H 2700 9075 50  0000 C CNN
-F 2 "" H 2700 9225 50  0001 C CNN
-F 3 "" H 2700 9225 50  0001 C CNN
-	1    2700 9225
+P 2050 8575
+F 0 "#PWR09" H 2050 8325 50  0001 C CNN
+F 1 "GND" H 2050 8425 50  0000 C CNN
+F 2 "" H 2050 8575 50  0001 C CNN
+F 3 "" H 2050 8575 50  0001 C CNN
+	1    2050 8575
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5A7493FE
-P 2100 9125
-F 0 "#PWR06" H 2100 8875 50  0001 C CNN
-F 1 "GND" H 2100 8975 50  0000 C CNN
-F 2 "" H 2100 9125 50  0001 C CNN
-F 3 "" H 2100 9125 50  0001 C CNN
-	1    2100 9125
+P 1450 8475
+F 0 "#PWR06" H 1450 8225 50  0001 C CNN
+F 1 "GND" H 1450 8325 50  0000 C CNN
+F 2 "" H 1450 8475 50  0001 C CNN
+F 3 "" H 1450 8475 50  0001 C CNN
+	1    1450 8475
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:R R1
 U 1 1 5A749034
-P 2100 8675
-F 0 "R1" V 2180 8675 50  0000 C CNN
-F 1 "10kR" V 2100 8675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2030 8675 50  0001 C CNN
-F 3 "" H 2100 8675 50  0001 C CNN
-F 4 "C25804" V 2100 8675 50  0001 C CNN "LCSC"
-	1    2100 8675
+P 1450 8025
+F 0 "R1" V 1530 8025 50  0000 C CNN
+F 1 "10kR" V 1450 8025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1380 8025 50  0001 C CNN
+F 3 "" H 1450 8025 50  0001 C CNN
+F 4 "C25804" V 1450 8025 50  0001 C CNN "LCSC"
+	1    1450 8025
 	1    0    0    -1  
 $EndComp
-Connection ~ 2100 8825
+Connection ~ 1450 8175
 $Comp
 L Atmega_328_breakout-rescue:R R2
 U 1 1 5A748DF6
-P 2100 8975
-F 0 "R2" V 2180 8975 50  0000 C CNN
-F 1 "20k" V 2100 8975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2030 8975 50  0001 C CNN
-F 3 "" H 2100 8975 50  0001 C CNN
-F 4 "C4184" V 2100 8975 50  0001 C CNN "LCSC"
-	1    2100 8975
+P 1450 8325
+F 0 "R2" V 1530 8325 50  0000 C CNN
+F 1 "20k" V 1450 8325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1380 8325 50  0001 C CNN
+F 3 "" H 1450 8325 50  0001 C CNN
+F 4 "C4184" V 1450 8325 50  0001 C CNN "LCSC"
+	1    1450 8325
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:+5V #PWR07
 U 1 1 5A748A91
-P 2350 9025
-F 0 "#PWR07" H 2350 8875 50  0001 C CNN
-F 1 "+5V" H 2350 9165 50  0000 C CNN
-F 2 "" H 2350 9025 50  0001 C CNN
-F 3 "" H 2350 9025 50  0001 C CNN
-	1    2350 9025
+P 1700 8375
+F 0 "#PWR07" H 1700 8225 50  0001 C CNN
+F 1 "+5V" H 1700 8515 50  0000 C CNN
+F 2 "" H 1700 8375 50  0001 C CNN
+F 3 "" H 1700 8375 50  0001 C CNN
+	1    1700 8375
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:TL071 U3
 U 1 1 5A74871A
-P 2800 8925
-F 0 "U3" H 2800 9175 50  0000 L CNN
-F 1 "TL071" H 2800 9075 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2850 8975 50  0001 C CNN
-F 3 "" H 2950 9075 50  0001 C CNN
-F 4 "C350565" H 2800 8925 50  0001 C CNN "LCSC"
-	1    2800 8925
+P 2150 8275
+F 0 "U3" H 2150 8525 50  0000 L CNN
+F 1 "TL071" H 2150 8425 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 8325 50  0001 C CNN
+F 3 "" H 2300 8425 50  0001 C CNN
+F 4 "C350565" H 2150 8275 50  0001 C CNN "LCSC"
+	1    2150 8275
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C7
 U 1 1 5A73EAA8
-P 4400 10650
-F 0 "C7" H 4410 10720 50  0000 L CNN
-F 1 "100n" H 4410 10570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4400 10650 50  0001 C CNN
-F 3 "" H 4400 10650 50  0001 C CNN
-F 4 "C14663" H 4400 10650 50  0001 C CNN "LCSC"
-	1    4400 10650
+P 3900 10700
+F 0 "C7" H 3910 10770 50  0000 L CNN
+F 1 "100n" H 3910 10620 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3900 10700 50  0001 C CNN
+F 3 "" H 3900 10700 50  0001 C CNN
+F 4 "C14663" H 3900 10700 50  0001 C CNN "LCSC"
+	1    3900 10700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C2
 U 1 1 5A73EA32
-P 1575 10675
-F 0 "C2" H 1585 10745 50  0000 L CNN
-F 1 "1u" H 1585 10595 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1575 10675 50  0001 C CNN
-F 3 "" H 1575 10675 50  0001 C CNN
-F 4 "C15849" H 1575 10675 50  0001 C CNN "LCSC"
-	1    1575 10675
+P 1100 10700
+F 0 "C2" H 1110 10770 50  0000 L CNN
+F 1 "1u" H 1110 10620 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1100 10700 50  0001 C CNN
+F 3 "" H 1100 10700 50  0001 C CNN
+F 4 "C15849" H 1100 10700 50  0001 C CNN "LCSC"
+	1    1100 10700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C6
 U 1 1 5A73E9CD
-P 3475 10650
-F 0 "C6" H 3485 10720 50  0000 L CNN
-F 1 "1u" H 3485 10570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3475 10650 50  0001 C CNN
-F 3 "" H 3475 10650 50  0001 C CNN
-F 4 "C15849" H 3475 10650 50  0001 C CNN "LCSC"
-	1    3475 10650
+P 2950 10650
+F 0 "C6" H 2960 10720 50  0000 L CNN
+F 1 "1u" H 2960 10570 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2950 10650 50  0001 C CNN
+F 3 "" H 2950 10650 50  0001 C CNN
+F 4 "C15849" H 2950 10650 50  0001 C CNN "LCSC"
+	1    2950 10650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C5
 U 1 1 5A73E889
-P 2500 10650
-F 0 "C5" H 2510 10720 50  0000 L CNN
-F 1 "100n" H 2510 10570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2500 10650 50  0001 C CNN
-F 3 "" H 2500 10650 50  0001 C CNN
-F 4 "C14663" H 2500 10650 50  0001 C CNN "LCSC"
-	1    2500 10650
+P 2150 10650
+F 0 "C5" H 2160 10720 50  0000 L CNN
+F 1 "100n" H 2160 10570 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2150 10650 50  0001 C CNN
+F 3 "" H 2150 10650 50  0001 C CNN
+F 4 "C14663" H 2150 10650 50  0001 C CNN "LCSC"
+	1    2150 10650
 	-1   0    0    1   
 $EndComp
-$Comp
-L Atmega_328_breakout-rescue:L7805 U2
-U 1 1 5A73E2B6
-P 1975 10475
-F 0 "U2" H 1825 10600 50  0000 C CNN
-F 1 "L7805" H 2050 10600 50  0000 L CNN
-F 2 "jorgen:TO-220-ver2" H 2000 10325 50  0001 L CIN
-F 3 "" H 1975 10425 50  0001 C CNN
-	1    1975 10475
-	1    0    0    -1  
-$EndComp
-Text GLabel 1400 7350 2    60   BiDi ~ 0
+Text GLabel 1400 7100 2    60   BiDi ~ 0
 V_supply
-$Comp
-L Atmega_328_breakout-rescue:GND #PWR024
-U 1 1 60D937B9
-P 7500 4900
-F 0 "#PWR024" H 7500 4650 50  0001 C CNN
-F 1 "GND" H 7500 4750 50  0000 C CNN
-F 2 "" H 7500 4900 50  0001 C CNN
-F 3 "" H 7500 4900 50  0001 C CNN
-	1    7500 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 4850 7500 4850
-Wire Wire Line
-	7450 6400 7300 6400
-Wire Wire Line
-	7450 6300 7300 6300
-Wire Wire Line
-	7450 6200 7300 6200
-Wire Wire Line
-	7450 6100 7300 6100
-Wire Wire Line
-	7450 6000 7300 6000
-Wire Wire Line
-	7450 5900 7300 5900
-Wire Wire Line
-	7450 5700 7300 5700
-Wire Wire Line
-	7450 5600 7300 5600
-Wire Wire Line
-	6700 5500 7450 5500
-Wire Wire Line
-	7000 5400 7450 5400
-Wire Wire Line
-	7150 5300 7450 5300
-Text GLabel 7200 4950 0    60   BiDi ~ 0
-~RESET
-Wire Wire Line
-	7500 4900 7500 4850
-Wire Wire Line
-	7450 5200 7350 5200
-Wire Wire Line
-	7350 5200 7350 4950
-Wire Wire Line
-	7350 4950 7200 4950
-Text GLabel 14900 3350 0    60   BiDi ~ 0
+Text GLabel 14800 3650 0    60   BiDi ~ 0
 V_supply
 $Comp
 L power:GND #PWR041
 U 1 1 60EFE06B
-P 14800 3000
-F 0 "#PWR041" H 14800 2750 50  0001 C CNN
-F 1 "GND" H 14800 2850 50  0000 C CNN
-F 2 "" H 14800 3000 50  0001 C CNN
-F 3 "" H 14800 3000 50  0001 C CNN
-	1    14800 3000
+P 14700 3300
+F 0 "#PWR041" H 14700 3050 50  0001 C CNN
+F 1 "GND" H 14700 3150 50  0000 C CNN
+F 2 "" H 14700 3300 50  0001 C CNN
+F 3 "" H 14700 3300 50  0001 C CNN
+	1    14700 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14400 3750 15000 3750
+	14300 4050 14900 4050
 Text GLabel 12150 8900 0    60   BiDi ~ 0
 ~RESET
 Text GLabel 8650 9750 0    60   BiDi ~ 0
@@ -1473,23 +1026,23 @@ PD7
 $Comp
 L Atmega_328_breakout-rescue:GND #PWR014
 U 1 1 5F94FF1F
-P 11600 6450
-F 0 "#PWR014" H 11600 6200 50  0001 C CNN
-F 1 "GND" H 11600 6300 50  0000 C CNN
-F 2 "" H 11600 6450 50  0001 C CNN
-F 3 "" H 11600 6450 50  0001 C CNN
-	1    11600 6450
+P 10750 3750
+F 0 "#PWR014" H 10750 3500 50  0001 C CNN
+F 1 "GND" H 10750 3600 50  0000 C CNN
+F 2 "" H 10750 3750 50  0001 C CNN
+F 3 "" H 10750 3750 50  0001 C CNN
+	1    10750 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x06 J10
 U 1 1 5F94FF25
-P 12000 6700
-F 0 "J10" H 12000 7000 50  0000 C CNN
-F 1 "Conn_01x06" H 12000 6300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 12000 6700 50  0001 C CNN
-F 3 "" H 12000 6700 50  0001 C CNN
-	1    12000 6700
+P 11150 4000
+F 0 "J10" H 11150 4300 50  0000 C CNN
+F 1 "Conn_01x06" H 11150 3600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 11150 4000 50  0001 C CNN
+F 3 "" H 11150 4000 50  0001 C CNN
+	1    11150 4000
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1498,7 +1051,7 @@ U 1 1 5A7A20C0
 P 14750 6100
 F 0 "SW2" H 14800 6200 50  0000 L CNN
 F 1 "SW_Push" H 14750 6040 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 14750 6300 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 14750 6300 50  0001 C CNN
 F 3 "" H 14750 6300 50  0001 C CNN
 	1    14750 6100
 	0    -1   -1   0   
@@ -1583,78 +1136,78 @@ Text GLabel 15200 2250 2    60   BiDi ~ 0
 PB3
 Wire Wire Line
 	14725 2250 15200 2250
-Text GLabel 12250 1300 0    60   BiDi ~ 0
+Text GLabel 3550 1200 0    60   BiDi ~ 0
 XTAL1(PB6)
-Text GLabel 12750 1000 0    60   BiDi ~ 0
+Text GLabel 4050 900  0    60   BiDi ~ 0
 XTAL2(PB7)
 $Comp
 L Atmega_328_breakout-rescue:Crystal Y1
 U 1 1 5A730179
-P 12550 1300
-F 0 "Y1" H 12550 1450 50  0000 C CNN
-F 1 "Crystal" H 12550 1150 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 12550 1300 50  0001 C CNN
-F 3 "" H 12550 1300 50  0001 C CNN
-	1    12550 1300
+P 3850 1200
+F 0 "Y1" H 3850 1350 50  0000 C CNN
+F 1 "Crystal" H 3850 1050 50  0000 C CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 3850 1200 50  0001 C CNN
+F 3 "" H 3850 1200 50  0001 C CNN
+	1    3850 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12350 1750 12350 1950
+	3650 1650 3650 1850
 Wire Wire Line
-	12850 1950 12850 1750
+	4150 1850 4150 1650
 Wire Wire Line
-	12850 1550 12850 1300
+	4150 1450 4150 1200
 Wire Wire Line
-	12850 1300 12700 1300
+	4150 1200 4000 1200
 Wire Wire Line
-	12400 1300 12350 1300
+	3700 1200 3650 1200
 Wire Wire Line
-	12350 1300 12350 1550
+	3650 1200 3650 1450
 Wire Wire Line
-	12850 1300 12850 1000
-Connection ~ 12850 1300
+	4150 1200 4150 900 
+Connection ~ 4150 1200
 Wire Wire Line
-	12750 1000 12850 1000
+	4050 900  4150 900 
 Wire Wire Line
-	12350 1300 12250 1300
-Connection ~ 12350 1300
+	3650 1200 3550 1200
+Connection ~ 3650 1200
 Wire Wire Line
-	2900 4000 3300 4000
+	1850 4700 2250 4700
 Wire Wire Line
-	2900 3900 3300 3900
-Text GLabel 14400 3750 0    60   BiDi ~ 0
+	1850 4600 2250 4600
+Text GLabel 14300 4050 0    60   BiDi ~ 0
 AGND
 $Comp
 L power:+3.3V #PWR036
 U 1 1 60EFE05D
-P 13350 3600
-F 0 "#PWR036" H 13350 3450 50  0001 C CNN
-F 1 "+3.3V" H 13350 3740 50  0000 C CNN
-F 2 "" H 13350 3600 50  0001 C CNN
-F 3 "" H 13350 3600 50  0001 C CNN
-	1    13350 3600
+P 13250 3900
+F 0 "#PWR036" H 13250 3750 50  0001 C CNN
+F 1 "+3.3V" H 13250 4040 50  0000 C CNN
+F 2 "" H 13250 3900 50  0001 C CNN
+F 3 "" H 13250 3900 50  0001 C CNN
+	1    13250 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 2300 2750 0    60   Output ~ 0
+Text GLabel 1250 3450 0    60   Output ~ 0
 AVCC
 Wire Wire Line
-	2450 2850 2450 2750
+	1400 3550 1400 3450
 Wire Wire Line
-	2450 2750 2300 2750
-Connection ~ 2450 2850
+	1400 3450 1250 3450
+Connection ~ 1400 3550
 $Comp
 L Atmega_328_breakout-rescue:+5V #PWR040
 U 1 1 60EFE064
-P 14100 3400
-F 0 "#PWR040" H 14100 3250 50  0001 C CNN
-F 1 "+5V" H 14100 3540 50  0000 C CNN
-F 2 "" H 14100 3400 50  0001 C CNN
-F 3 "" H 14100 3400 50  0001 C CNN
-	1    14100 3400
+P 14000 3700
+F 0 "#PWR040" H 14000 3550 50  0001 C CNN
+F 1 "+5V" H 14000 3840 50  0000 C CNN
+F 2 "" H 14000 3700 50  0001 C CNN
+F 3 "" H 14000 3700 50  0001 C CNN
+	1    14000 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14100 3400 14100 3450
+	14000 3700 14000 3750
 Wire Wire Line
 	14750 5700 15050 5700
 Wire Wire Line
@@ -1667,118 +1220,107 @@ Wire Wire Line
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x02_Female J3
 U 1 1 5A796047
-P 2775 6475
-F 0 "J3" H 2775 6575 50  0000 C CNN
-F 1 "1x2" H 2675 6300 50  0000 C CNN
-F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 2775 6475 50  0001 C CNN
-F 3 "" H 2775 6475 50  0001 C CNN
-	1    2775 6475
+P 9575 6925
+F 0 "J3" H 9575 7025 50  0000 C CNN
+F 1 "1x2" H 9475 6750 50  0000 C CNN
+F 2 "jorgen:Pin_Header_Straight_1x02_Pitch2.54mm" H 9575 6925 50  0001 C CNN
+F 3 "" H 9575 6925 50  0001 C CNN
+	1    9575 6925
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 3150 0    60   Input ~ 0
+Text GLabel 1800 3850 0    60   Input ~ 0
 AREF
 Wire Wire Line
-	2850 3150 2950 3150
-Connection ~ 2950 3150
+	1800 3850 1900 3850
+Connection ~ 1900 3850
 Wire Wire Line
-	2950 3150 3300 3150
-$Comp
-L Atmega_328_breakout-rescue:GND #PWR030
-U 1 1 60779CF8
-P 10050 5050
-F 0 "#PWR030" H 10050 4800 50  0001 C CNN
-F 1 "GND" H 10050 4900 50  0000 C CNN
-F 2 "" H 10050 5050 50  0001 C CNN
-F 3 "" H 10050 5050 50  0001 C CNN
-	1    10050 5050
-	1    0    0    -1  
-$EndComp
+	1900 3850 2250 3850
 $Comp
 L Atmega_328_breakout-rescue:Conn_01x03_Female J24
 U 1 1 5A757345
-P 12400 3850
-F 0 "J24" H 12400 4050 50  0000 C CNN
-F 1 "Device_Connector" H 12550 3650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12400 3850 50  0001 C CNN
-F 3 "" H 12400 3850 50  0001 C CNN
-	1    12400 3850
+P 11850 1800
+F 0 "J24" H 11850 2000 50  0000 C CNN
+F 1 "Device_Connector" H 12000 1600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 11850 1800 50  0001 C CNN
+F 3 "" H 11850 1800 50  0001 C CNN
+	1    11850 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR031
 U 1 1 607D7AD7
-P 11300 3500
-F 0 "#PWR031" H 11300 3350 50  0001 C CNN
-F 1 "VCC" H 11300 3650 50  0000 C CNN
-F 2 "" H 11300 3500 50  0001 C CNN
-F 3 "" H 11300 3500 50  0001 C CNN
-	1    11300 3500
+P 10750 1450
+F 0 "#PWR031" H 10750 1300 50  0001 C CNN
+F 1 "VCC" H 10750 1600 50  0000 C CNN
+F 2 "" H 10750 1450 50  0001 C CNN
+F 3 "" H 10750 1450 50  0001 C CNN
+	1    10750 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:C_Small C10
 U 1 1 5A7A187A
-P 11300 3850
-F 0 "C10" H 11310 3920 50  0000 L CNN
-F 1 "1u" H 11310 3770 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 11300 3850 50  0001 C CNN
-F 3 "" H 11300 3850 50  0001 C CNN
-F 4 "C15849" H 11300 3850 50  0001 C CNN "LCSC"
-	1    11300 3850
+P 10750 1800
+F 0 "C10" H 10760 1870 50  0000 L CNN
+F 1 "1u" H 10760 1720 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10750 1800 50  0001 C CNN
+F 3 "" H 10750 1800 50  0001 C CNN
+F 4 "C15849" H 10750 1800 50  0001 C CNN "LCSC"
+	1    10750 1800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	11300 3600 11300 3750
+	10750 1550 10750 1700
 Wire Wire Line
-	11300 3950 11300 4050
+	10750 1900 10750 2000
 Wire Wire Line
-	12200 3850 11850 3850
+	11650 1800 11300 1800
 Wire Wire Line
-	12200 3750 12000 3750
+	11650 1700 11450 1700
 Wire Wire Line
-	12000 3750 12000 3600
+	11450 1700 11450 1550
 Wire Wire Line
-	12000 3600 11300 3600
-Connection ~ 11300 3600
+	11450 1550 10750 1550
+Connection ~ 10750 1550
 Wire Wire Line
-	11300 3500 11300 3600
+	10750 1450 10750 1550
 Wire Wire Line
-	12200 3950 12000 3950
+	11650 1900 11450 1900
 Wire Wire Line
-	12000 3950 12000 4050
+	11450 1900 11450 2000
 Wire Wire Line
-	12000 4050 11300 4050
-Connection ~ 11300 4050
+	11450 2000 10750 2000
+Connection ~ 10750 2000
 Wire Wire Line
-	11300 4050 11300 4100
-Text GLabel 3350 9225 0    60   Input ~ 0
+	10750 2000 10750 2050
+Text GLabel 2700 8575 0    60   Input ~ 0
 VUSB
 $Comp
 L Atmega_328_breakout-rescue:+5V #PWR012
 U 1 1 5A74AA13
-P 4175 9225
-F 0 "#PWR012" H 4175 9075 50  0001 C CNN
-F 1 "+5V" H 4175 9365 50  0000 C CNN
-F 2 "" H 4175 9225 50  0001 C CNN
-F 3 "" H 4175 9225 50  0001 C CNN
-	1    4175 9225
+P 3525 8575
+F 0 "#PWR012" H 3525 8425 50  0001 C CNN
+F 1 "+5V" H 3525 8715 50  0000 C CNN
+F 2 "" H 3525 8575 50  0001 C CNN
+F 3 "" H 3525 8575 50  0001 C CNN
+	1    3525 8575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4175 9225 3950 9225
+	3525 8575 3300 8575
 $Comp
 L Atmega_328_breakout-rescue:Q_PMOS_SGD Q1
 U 1 1 5A74A028
-P 3750 9125
-F 0 "Q1" H 3950 9175 50  0000 L CNN
-F 1 "PMOS" H 3950 9075 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 9225 50  0001 C CNN
-F 3 "" H 3750 9125 50  0001 C CNN
-	1    3750 9125
+P 3100 8475
+F 0 "Q1" H 3300 8525 50  0000 L CNN
+F 1 "PMOS" H 3300 8425 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 8575 50  0001 C CNN
+F 3 "" H 3100 8475 50  0001 C CNN
+	1    3100 8475
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 9225 3550 9225
+	2700 8575 2900 8575
 Text GLabel 14250 8200 0    60   Input ~ 0
 VUSB
 Wire Wire Line
@@ -1787,234 +1329,156 @@ Wire Wire Line
 	14400 8200 14250 8200
 Connection ~ 14400 8500
 $Comp
-L Atmega_328_breakout-rescue:+3.3V #PWR023
-U 1 1 60BC2C21
-P 7650 2000
-F 0 "#PWR023" H 7650 1850 50  0001 C CNN
-F 1 "+3.3V" H 7650 2140 50  0000 C CNN
-F 2 "" H 7650 2000 50  0001 C CNN
-F 3 "" H 7650 2000 50  0001 C CNN
-	1    7650 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Atmega_328_breakout-rescue:+5V #PWR026
-U 1 1 60BC2C27
-P 7850 2100
-F 0 "#PWR026" H 7850 1950 50  0001 C CNN
-F 1 "+5V" H 7850 2240 50  0000 C CNN
-F 2 "" H 7850 2100 50  0001 C CNN
-F 3 "" H 7850 2100 50  0001 C CNN
-	1    7850 2100
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 1900 2    60   Input ~ 0
-~RESET
-Wire Wire Line
-	7200 1900 7000 1900
-Wire Wire Line
-	7650 2000 7000 2000
-Wire Wire Line
-	7850 2100 7000 2100
-Wire Wire Line
-	7200 2400 7000 2400
-Wire Wire Line
-	7200 2300 7000 2300
-$Comp
-L power:GND #PWR025
-U 1 1 60DF2C3C
-P 7850 2200
-F 0 "#PWR025" H 7850 1950 50  0001 C CNN
-F 1 "GND" H 7850 2050 50  0000 C CNN
-F 2 "" H 7850 2200 50  0001 C CNN
-F 3 "" H 7850 2200 50  0001 C CNN
-	1    7850 2200
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Atmega_328_breakout-rescue:C_Small C8
 U 1 1 5A78FFB9
-P 6400 9850
-F 0 "C8" H 6410 9920 50  0000 L CNN
-F 1 "100n" H 6410 9770 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6400 9850 50  0001 C CNN
-F 3 "" H 6400 9850 50  0001 C CNN
-F 4 "C14663" H 6400 9850 50  0001 C CNN "LCSC"
-	1    6400 9850
+P 5850 10000
+F 0 "C8" H 5860 10070 50  0000 L CNN
+F 1 "100n" H 5860 9920 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5850 10000 50  0001 C CNN
+F 3 "" H 5850 10000 50  0001 C CNN
+F 4 "C14663" H 5850 10000 50  0001 C CNN "LCSC"
+	1    5850 10000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:LED D3
 U 1 1 5A73B449
-P 5650 10050
-F 0 "D3" H 5650 10150 50  0000 C CNN
-F 1 "LED" H 5650 9950 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 10050 50  0001 C CNN
-F 3 "" H 5650 10050 50  0001 C CNN
-F 4 "C188728" H 5650 10050 50  0001 C CNN "LCSC"
-	1    5650 10050
+P 5100 10200
+F 0 "D3" H 5100 10300 50  0000 C CNN
+F 1 "LED" H 5100 10100 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5100 10200 50  0001 C CNN
+F 3 "" H 5100 10200 50  0001 C CNN
+F 4 "C188728" H 5100 10200 50  0001 C CNN "LCSC"
+	1    5100 10200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Atmega_328_breakout-rescue:R R5
 U 1 1 5A73B350
-P 5650 9750
-F 0 "R5" V 5730 9750 50  0000 C CNN
-F 1 "1k" V 5645 9765 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5580 9750 50  0001 C CNN
-F 3 "" H 5650 9750 50  0001 C CNN
-F 4 "C21190" V 5650 9750 50  0001 C CNN "LCSC"
-	1    5650 9750
+P 5100 9900
+F 0 "R5" V 5180 9900 50  0000 C CNN
+F 1 "1k" V 5095 9915 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5030 9900 50  0001 C CNN
+F 3 "" H 5100 9900 50  0001 C CNN
+F 4 "C21190" V 5100 9900 50  0001 C CNN "LCSC"
+	1    5100 9900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Atmega_328_breakout-rescue:Ferrite_Bead_Small L1
-U 1 1 5A73FFDC
-P 5500 9200
-F 0 "L1" H 5581 9224 50  0000 L CNN
-F 1 "F B" H 5575 9150 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 9200 50  0001 C CNN
-F 3 "" H 5500 9200 50  0001 C CNN
-	1    5500 9200
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR018
 U 1 1 5F8E0CA9
-P 5850 8550
-F 0 "#PWR018" H 5850 8400 50  0001 C CNN
-F 1 "+5V" H 5865 8723 50  0000 C CNN
-F 2 "" H 5850 8550 50  0001 C CNN
-F 3 "" H 5850 8550 50  0001 C CNN
-	1    5850 8550
+P 5300 8450
+F 0 "#PWR018" H 5300 8300 50  0001 C CNN
+F 1 "+5V" H 5315 8623 50  0000 C CNN
+F 2 "" H 5300 8450 50  0001 C CNN
+F 3 "" H 5300 8450 50  0001 C CNN
+	1    5300 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 8550 5850 8650
+	5300 8450 5300 8550
 Wire Wire Line
-	5500 8350 5500 8650
+	4950 8850 5300 8850
 Wire Wire Line
-	5500 8950 5850 8950
+	4800 10050 4800 10600
 Wire Wire Line
-	5350 9900 5350 10450
+	4800 10600 5100 10600
 Wire Wire Line
-	5350 10450 5650 10450
+	5850 9900 5850 9750
 Wire Wire Line
-	6400 9750 6400 9600
-Wire Wire Line
-	6400 9950 6400 10450
+	5850 10100 5850 10600
 $Comp
 L Atmega_328_breakout-rescue:D_Zener D2
 U 1 1 5A77CE39
-P 5350 9750
-F 0 "D2" H 5350 9850 50  0000 C CNN
-F 1 "5,5+ Zener" H 5350 9650 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 5350 9750 50  0001 C CNN
-F 3 "" H 5350 9750 50  0001 C CNN
-	1    5350 9750
+P 4800 9900
+F 0 "D2" H 4800 10000 50  0000 C CNN
+F 1 "5,5+ Zener" H 4800 9800 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 4800 9900 50  0001 C CNN
+F 3 "" H 4800 9900 50  0001 C CNN
+	1    4800 9900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7250 10000 7150 10000
+	5100 10350 5100 10600
+Connection ~ 5100 10600
 Wire Wire Line
-	6950 10000 6950 9750
+	5100 10600 5850 10600
+Connection ~ 5100 9750
 Wire Wire Line
-	6400 9600 6950 9600
-Wire Wire Line
-	6950 9600 6950 9750
-Connection ~ 6950 9750
-Wire Wire Line
-	5650 10200 5650 10450
-Connection ~ 5650 10450
-Wire Wire Line
-	5650 10450 6400 10450
-Connection ~ 5650 9600
-Connection ~ 6400 9600
-Wire Wire Line
-	5750 9600 5750 9350
+	5400 9750 5400 9500
 $Comp
 L power:GND #PWR017
 U 1 1 5FE140DA
-P 6400 10550
-F 0 "#PWR017" H 6400 10300 50  0001 C CNN
-F 1 "GND" H 6405 10377 50  0000 C CNN
-F 2 "" H 6400 10550 50  0001 C CNN
-F 3 "" H 6400 10550 50  0001 C CNN
-	1    6400 10550
+P 5850 10700
+F 0 "#PWR017" H 5850 10450 50  0001 C CNN
+F 1 "GND" H 5855 10527 50  0000 C CNN
+F 2 "" H 5850 10700 50  0001 C CNN
+F 3 "" H 5850 10700 50  0001 C CNN
+	1    5850 10700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 10550 6400 10450
-Connection ~ 6400 10450
+	5850 10700 5850 10600
+Connection ~ 5850 10600
 $Comp
 L power:GND #PWR03
 U 1 1 5FE358B4
-P 2850 2550
-F 0 "#PWR03" H 2850 2300 50  0001 C CNN
-F 1 "GND" H 2855 2377 50  0000 C CNN
-F 2 "" H 2850 2550 50  0001 C CNN
-F 3 "" H 2850 2550 50  0001 C CNN
-	1    2850 2550
+P 1800 3250
+F 0 "#PWR03" H 1800 3000 50  0001 C CNN
+F 1 "GND" H 1805 3077 50  0000 C CNN
+F 2 "" H 1800 3250 50  0001 C CNN
+F 3 "" H 1800 3250 50  0001 C CNN
+	1    1800 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR02
 U 1 1 5FE57C88
-P 2850 2200
-F 0 "#PWR02" H 2850 2050 50  0001 C CNN
-F 1 "VCC" H 2865 2373 50  0000 C CNN
-F 2 "" H 2850 2200 50  0001 C CNN
-F 3 "" H 2850 2200 50  0001 C CNN
-	1    2850 2200
+P 1800 2900
+F 0 "#PWR02" H 1800 2750 50  0001 C CNN
+F 1 "VCC" H 1815 3073 50  0000 C CNN
+F 2 "" H 1800 2900 50  0001 C CNN
+F 3 "" H 1800 2900 50  0001 C CNN
+	1    1800 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 2350 2850 2200
+	1800 3050 1800 2900
 Wire Wire Line
-	3000 2350 3000 2550
+	1950 3050 1950 3250
 $Comp
 L power:+5V #PWR011
 U 1 1 5FE975A4
-P 3200 10050
-F 0 "#PWR011" H 3200 9900 50  0001 C CNN
-F 1 "+5V" H 3215 10223 50  0000 C CNN
-F 2 "" H 3200 10050 50  0001 C CNN
-F 3 "" H 3200 10050 50  0001 C CNN
-	1    3200 10050
+P 2800 10100
+F 0 "#PWR011" H 2800 9950 50  0001 C CNN
+F 1 "+5V" H 2815 10273 50  0000 C CNN
+F 2 "" H 2800 10100 50  0001 C CNN
+F 3 "" H 2800 10100 50  0001 C CNN
+	1    2800 10100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR013
 U 1 1 5FEB7BA6
-P 4400 10300
-F 0 "#PWR013" H 4400 10150 50  0001 C CNN
-F 1 "+3.3V" H 4415 10473 50  0000 C CNN
-F 2 "" H 4400 10300 50  0001 C CNN
-F 3 "" H 4400 10300 50  0001 C CNN
-	1    4400 10300
+P 3900 10050
+F 0 "#PWR013" H 3900 9900 50  0001 C CNN
+F 1 "+3.3V" H 3915 10223 50  0000 C CNN
+F 2 "" H 3900 10050 50  0001 C CNN
+F 3 "" H 3900 10050 50  0001 C CNN
+	1    3900 10050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 10300 4400 10475
-Connection ~ 4400 10475
-Wire Wire Line
-	4400 10475 4400 10550
-Wire Wire Line
-	2500 10950 3050 10950
 $Comp
 L power:GND #PWR010
 U 1 1 5FF2EEAF
-P 3050 10950
-F 0 "#PWR010" H 3050 10700 50  0001 C CNN
-F 1 "GND" H 3055 10777 50  0000 C CNN
-F 2 "" H 3050 10950 50  0001 C CNN
-F 3 "" H 3050 10950 50  0001 C CNN
-	1    3050 10950
+P 2750 10900
+F 0 "#PWR010" H 2750 10650 50  0001 C CNN
+F 1 "GND" H 2755 10727 50  0000 C CNN
+F 2 "" H 2750 10900 50  0001 C CNN
+F 3 "" H 2750 10900 50  0001 C CNN
+	1    2750 10900
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 10950
-Wire Wire Line
-	3050 10950 3475 10950
 $Comp
 L power:GND #PWR01
 U 1 1 5FF4EFC1
@@ -2028,29 +1492,22 @@ F 3 "" H 900 6900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	900  6650 900  6900
-Wire Wire Line
-	2200 9950 2500 9950
-Wire Wire Line
-	925  9950 1575 9950
-Connection ~ 1575 9950
-Wire Wire Line
-	1575 9950 1600 9950
 $Comp
 L power:GND #PWR034
 U 1 1 6000723C
-P 12600 1950
-F 0 "#PWR034" H 12600 1700 50  0001 C CNN
-F 1 "GND" H 12605 1777 50  0000 C CNN
-F 2 "" H 12600 1950 50  0001 C CNN
-F 3 "" H 12600 1950 50  0001 C CNN
-	1    12600 1950
+P 3900 1850
+F 0 "#PWR034" H 3900 1600 50  0001 C CNN
+F 1 "GND" H 3905 1677 50  0000 C CNN
+F 2 "" H 3900 1850 50  0001 C CNN
+F 3 "" H 3900 1850 50  0001 C CNN
+	1    3900 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12350 1950 12600 1950
-Connection ~ 12600 1950
+	3650 1850 3900 1850
+Connection ~ 3900 1850
 Wire Wire Line
-	12600 1950 12850 1950
+	3900 1850 4150 1850
 $Comp
 L power:GND #PWR045
 U 1 1 6007FAC8
@@ -2103,174 +1560,104 @@ Wire Wire Line
 	14750 1100 15550 1100
 Wire Wire Line
 	13450 1100 14250 1100
-$Comp
-L power:GND #PWR020
-U 1 1 601ADB70
-P 6700 5500
-F 0 "#PWR020" H 6700 5250 50  0001 C CNN
-F 1 "GND" H 6705 5327 50  0000 C CNN
-F 2 "" H 6700 5500 50  0001 C CNN
-F 3 "" H 6700 5500 50  0001 C CNN
-	1    6700 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	13350 3650 13350 3600
+	13250 3950 13250 3900
 Wire Wire Line
-	13800 3550 13800 3500
+	13700 3850 13700 3800
 Wire Wire Line
-	13350 3650 15000 3650
+	13250 3950 14900 3950
 Wire Wire Line
-	14100 3450 15000 3450
+	14000 3750 14900 3750
 Wire Wire Line
-	14900 3350 15000 3350
-Wire Wire Line
-	3475 10950 4400 10950
-$Comp
-L Regulator_Linear:MCP1700-3302E_SOT23 U5
-U 1 1 5A73E34B
-P 3850 10475
-F 0 "U5" H 3700 10600 50  0000 C CNN
-F 1 "MCP1700-33" H 3850 10600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3850 10700 50  0001 C CNN
-F 3 "" H 3850 10475 50  0001 C CNN
-F 4 "C62244" H 3850 10475 50  0001 C CNN "LCSC"
-	1    3850 10475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 10750 3850 10775
-$Comp
-L power:GND #PWR048
-U 1 1 605B310D
-P 3850 10750
-F 0 "#PWR048" H 3850 10500 50  0001 C CNN
-F 1 "GND" H 3855 10577 50  0000 C CNN
-F 2 "" H 3850 10750 50  0001 C CNN
-F 3 "" H 3850 10750 50  0001 C CNN
-	1    3850 10750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 2200 7000 2200
+	14800 3650 14900 3650
 $Comp
 L power:GND #PWR04
 U 1 1 5FF8CFA0
-P 2000 10250
-F 0 "#PWR04" H 2000 10000 50  0001 C CNN
-F 1 "GND" H 2005 10077 50  0000 C CNN
-F 2 "" H 2000 10250 50  0001 C CNN
-F 3 "" H 2000 10250 50  0001 C CNN
-	1    2000 10250
+P 1500 10150
+F 0 "#PWR04" H 1500 9900 50  0001 C CNN
+F 1 "GND" H 1505 9977 50  0000 C CNN
+F 2 "" H 1500 10150 50  0001 C CNN
+F 3 "" H 1500 10150 50  0001 C CNN
+	1    1500 10150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 10250 1900 10250
-Wire Wire Line
-	13800 3550 15000 3550
+	13700 3850 14900 3850
 $Comp
 L power:VCC #PWR038
 U 1 1 605462C8
-P 13800 3500
-F 0 "#PWR038" H 13800 3350 50  0001 C CNN
-F 1 "VCC" H 13800 3650 50  0000 C CNN
-F 2 "" H 13800 3500 50  0001 C CNN
-F 3 "" H 13800 3500 50  0001 C CNN
-	1    13800 3500
+P 13700 3800
+F 0 "#PWR038" H 13700 3650 50  0001 C CNN
+F 1 "VCC" H 13700 3950 50  0000 C CNN
+F 2 "" H 13700 3800 50  0001 C CNN
+F 3 "" H 13700 3800 50  0001 C CNN
+	1    13700 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15200 2350 15200 2400
 Wire Wire Line
-	1100 6650 1100 7350
-Connection ~ 1100 7350
+	1100 6650 1100 7100
 Wire Wire Line
-	1100 7350 1100 7600
-Connection ~ 5750 9600
+	4950 8850 4950 9000
+Connection ~ 4950 8850
 Wire Wire Line
-	5750 9600 5650 9600
+	10950 3800 10950 3650
 Wire Wire Line
-	5350 9600 5500 9600
+	10950 3650 11150 3650
 Wire Wire Line
-	5500 8950 5500 9100
-Connection ~ 5500 8950
+	11150 3650 11150 3800
 Wire Wire Line
-	5500 9300 5500 9600
-Connection ~ 5500 9600
+	11150 3650 11350 3650
 Wire Wire Line
-	5500 9600 5650 9600
+	11350 3650 11350 3800
+Connection ~ 11150 3650
 Wire Wire Line
-	11800 6500 11800 6350
+	11050 3800 11050 3550
 Wire Wire Line
-	11800 6350 12000 6350
+	11050 3550 11250 3550
 Wire Wire Line
-	12000 6350 12000 6500
+	11250 3550 11250 3800
 Wire Wire Line
-	12000 6350 12200 6350
+	11250 3550 11450 3550
 Wire Wire Line
-	12200 6350 12200 6500
-Connection ~ 12000 6350
+	11450 3550 11450 3800
+Connection ~ 11250 3550
 Wire Wire Line
-	11900 6500 11900 6250
+	10750 3750 10750 3650
 Wire Wire Line
-	11900 6250 12100 6250
-Wire Wire Line
-	12100 6250 12100 6500
-Wire Wire Line
-	12100 6250 12300 6250
-Wire Wire Line
-	12300 6250 12300 6500
-Connection ~ 12100 6250
-Wire Wire Line
-	11600 6450 11600 6350
-Wire Wire Line
-	11600 6350 11800 6350
-Connection ~ 11800 6350
-Connection ~ 11900 6250
+	10750 3650 10950 3650
+Connection ~ 10950 3650
+Connection ~ 11050 3550
 $Comp
 L power:VCC #PWR015
 U 1 1 60C5CCF5
-P 11900 5900
-F 0 "#PWR015" H 11900 5750 50  0001 C CNN
-F 1 "VCC" H 11900 6050 50  0000 C CNN
-F 2 "" H 11900 5900 50  0001 C CNN
-F 3 "" H 11900 5900 50  0001 C CNN
-	1    11900 5900
+P 11050 3200
+F 0 "#PWR015" H 11050 3050 50  0001 C CNN
+F 1 "VCC" H 11050 3350 50  0000 C CNN
+F 2 "" H 11050 3200 50  0001 C CNN
+F 3 "" H 11050 3200 50  0001 C CNN
+	1    11050 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11900 5900 11900 6250
+	11050 3200 11050 3550
 Wire Wire Line
-	15000 2900 15000 3250
+	14900 3200 14900 3550
 Wire Wire Line
-	15000 2900 14800 2900
+	14900 3200 14700 3200
 Wire Wire Line
-	14800 2900 14800 3000
+	14700 3200 14700 3300
 Text GLabel 1150 850  2    60   Input ~ 0
 AVCC
 Text GLabel 1150 700  2    60   Input ~ 0
 AREF
 Wire Wire Line
-	7150 9750 7300 9750
+	6150 9350 6300 9350
 Wire Wire Line
-	925  8450 2100 8450
-$Comp
-L power:+5V #PWR050
-U 1 1 610216C5
-P 1200 1500
-F 0 "#PWR050" H 1200 1350 50  0001 C CNN
-F 1 "+5V" H 1215 1673 50  0000 C CNN
-F 2 "" H 1200 1500 50  0001 C CNN
-F 3 "" H 1200 1500 50  0001 C CNN
-	1    1200 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 7350 1400 7350
+	1100 7100 1400 7100
 Text GLabel 1150 1000 2    60   BiDi ~ 0
 V_supply
-Wire Wire Line
-	5750 9600 6400 9600
 $Comp
 L Atmega_328_breakout-rescue:GND #PWR051
 U 1 1 61158164
@@ -2293,8 +1680,6 @@ F 3 "~" H 1150 1000 50  0001 C CNN
 	1    1150 1000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3200 10050 3200 10475
 Text GLabel 1150 1150 2    60   Input ~ 0
 VUSB
 $Comp
@@ -2307,17 +1692,6 @@ F 2 "" H 1150 1150 50  0001 C CNN
 F 3 "~" H 1150 1150 50  0001 C CNN
 	1    1150 1150
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 612BBF5F
-P 1200 1500
-F 0 "#FLG0102" H 1200 1575 50  0001 C CNN
-F 1 "PWR_FLAG" H 1200 1673 50  0000 C CNN
-F 2 "" H 1200 1500 50  0001 C CNN
-F 3 "~" H 1200 1500 50  0001 C CNN
-	1    1200 1500
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG04
@@ -2377,27 +1751,6 @@ F 4 "C130462" H 13025 8700 50  0001 C CNN "LCSC"
 $EndComp
 NoConn ~ 13600 9100
 NoConn ~ 13600 9000
-$Comp
-L Atmega_328_breakout-rescue:ATMEL_SHIELD SHIELD1
-U 1 1 5A79E70E
-P 8400 5600
-F 0 "SHIELD1" H 8050 6550 60  0000 C CNN
-F 1 "ATMEL_SHIELD" H 8450 4650 60  0000 C CNN
-F 2 "jorgen:AtmelSHIELD" H 8400 5600 60  0001 C CNN
-F 3 "" H 8400 5600 60  0001 C CNN
-	1    8400 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 6400 9350 6400
-Wire Wire Line
-	9350 6300 9500 6300
-Text GLabel 9500 6200 2    60   BiDi ~ 0
-PD2
-Text GLabel 9500 6400 2    60   BiDi ~ 0
-PD0(RX)
-Text GLabel 9500 6300 2    60   BiDi ~ 0
-PD1(TX)
 Text GLabel 12700 9000 0    60   BiDi ~ 0
 PD0(RX)
 Text GLabel 12700 9100 0    60   BiDi ~ 0
@@ -2431,20 +1784,634 @@ F 3 "~" H 1250 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 4650 3300 4650
-Connection ~ 2850 2350
+	1800 5350 2250 5350
+Connection ~ 1800 3050
 Wire Wire Line
-	2850 2350 3000 2350
+	1800 3050 1950 3050
 $Comp
 L Atmega_328_breakout-rescue:C_Small C3
 U 1 1 5A76BD1D
-P 2850 2450
-F 0 "C3" H 2860 2520 50  0000 L CNN
-F 1 "100n" H 2860 2370 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2850 2450 50  0001 C CNN
-F 3 "" H 2850 2450 50  0001 C CNN
-F 4 "C14663" H 2850 2450 50  0001 C CNN "LCSC"
-	1    2850 2450
+P 1800 3150
+F 0 "C3" H 1810 3220 50  0000 L CNN
+F 1 "100n" H 1810 3070 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1800 3150 50  0001 C CNN
+F 3 "" H 1800 3150 50  0001 C CNN
+F 4 "C14663" H 1800 3150 50  0001 C CNN "LCSC"
+	1    1800 3150
 	-1   0    0    1   
 $EndComp
+$Comp
+L Atmega_328_breakout-rescue:R R10
+U 1 1 5F8D76F5
+P 4950 9450
+F 0 "R10" V 5030 9450 50  0000 C CNN
+F 1 "0R" V 4950 9450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 9450 50  0001 C CNN
+F 3 "" H 4950 9450 50  0001 C CNN
+F 4 "C21189" V 4950 9450 50  0001 C CNN "LCSC"
+	1    4950 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atmega_328_breakout-rescue:R R11
+U 1 1 5F9C60A8
+P 6000 9350
+F 0 "R11" V 6080 9350 50  0000 C CNN
+F 1 "0R" V 5989 9361 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5930 9350 50  0001 C CNN
+F 3 "" H 6000 9350 50  0001 C CNN
+F 4 "C21189" V 6000 9350 50  0001 C CNN "LCSC"
+	1    6000 9350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Atmega_328_breakout-rescue:R R12
+U 1 1 5F9E361A
+P 6000 9600
+F 0 "R12" V 6080 9600 50  0000 C CNN
+F 1 "0R" V 5989 9611 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5930 9600 50  0001 C CNN
+F 3 "" H 6000 9600 50  0001 C CNN
+F 4 "C21189" V 6000 9600 50  0001 C CNN "LCSC"
+	1    6000 9600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 9600 6150 9600
+Wire Wire Line
+	5850 9750 5850 9600
+Connection ~ 5850 9750
+Connection ~ 5850 9600
+Wire Wire Line
+	5850 9600 5850 9350
+$Comp
+L Atmega_328_breakout-rescue:L7805 U2
+U 1 1 5A73E2B6
+P 1500 10500
+F 0 "U2" H 1350 10625 50  0000 C CNN
+F 1 "L7805" H 1575 10625 50  0000 L CNN
+F 2 "jorgen:TO-220-ver2" H 1525 10350 50  0001 L CIN
+F 3 "" H 1500 10450 50  0001 C CNN
+	1    1500 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U5
+U 1 1 5A73E34B
+P 3400 10500
+F 0 "U5" H 3250 10250 50  0000 C CNN
+F 1 "MCP1700-33" H 3150 10650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 10725 50  0001 C CNN
+F 3 "" H 3400 10500 50  0001 C CNN
+F 4 "C62244" H 3400 10500 50  0001 C CNN "LCSC"
+	1    3400 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 10550 2950 10500
+Wire Wire Line
+	2950 10500 3100 10500
+Wire Wire Line
+	2950 10500 2800 10500
+Connection ~ 2950 10500
+Wire Wire Line
+	2950 10750 2950 10900
+Wire Wire Line
+	2950 10900 2750 10900
+Wire Wire Line
+	2750 10900 2150 10900
+Wire Wire Line
+	2150 10900 2150 10750
+Connection ~ 2750 10900
+Wire Wire Line
+	2950 10900 3400 10900
+Wire Wire Line
+	3400 10900 3400 10800
+Connection ~ 2950 10900
+Wire Wire Line
+	3700 10500 3900 10500
+Wire Wire Line
+	3900 10500 3900 10600
+Wire Wire Line
+	3900 10800 3900 10900
+Wire Wire Line
+	3900 10900 3400 10900
+Connection ~ 3400 10900
+Wire Wire Line
+	3900 10050 3900 10500
+Connection ~ 3900 10500
+Wire Wire Line
+	1800 10500 2150 10500
+Wire Wire Line
+	2150 10500 2150 10550
+Connection ~ 2150 10500
+Wire Wire Line
+	1800 9850 2150 9850
+Wire Wire Line
+	2150 9850 2150 10500
+Wire Wire Line
+	2150 10900 1500 10900
+Wire Wire Line
+	1100 10900 1100 10800
+Connection ~ 2150 10900
+Wire Wire Line
+	1500 10800 1500 10900
+Connection ~ 1500 10900
+Wire Wire Line
+	1500 10900 1100 10900
+Wire Wire Line
+	1100 10600 1100 10500
+Wire Wire Line
+	1100 10500 1200 10500
+Wire Wire Line
+	1100 10500 1100 9850
+Wire Wire Line
+	1100 9850 1200 9850
+Connection ~ 1100 10500
+Wire Wire Line
+	2800 10500 2150 10500
+Connection ~ 2800 10500
+Wire Wire Line
+	2800 10100 2800 10500
+Wire Wire Line
+	4800 9750 4950 9750
+Wire Wire Line
+	4950 9600 4950 9750
+Connection ~ 4950 9750
+Wire Wire Line
+	4950 9750 5100 9750
+Connection ~ 5400 9750
+Wire Wire Line
+	5400 9750 5850 9750
+Wire Wire Line
+	5100 9750 5400 9750
+Connection ~ 1100 9850
+Wire Wire Line
+	1100 7800 1450 7800
+Text Notes 1200 9550 0    60   ~ 0
+5V regulators\nSmall  or big\nOnly set up one
+Wire Wire Line
+	1100 7100 1100 7250
+Connection ~ 1100 7100
+Wire Wire Line
+	1100 7550 1100 7800
+Connection ~ 1100 7800
+Wire Wire Line
+	1100 7800 1100 9850
+Text Notes 3050 10100 0    60   ~ 0
+3.3V regulator
+Text Notes 2600 2750 0    60   ~ 0
+Microcontroller \n328PB or equivalent pinout
+Text Notes 7350 3350 0    60   ~ 0
+Header pin\nArduino distance
+Text GLabel 8900 5150 2    60   BiDi ~ 0
+PD1(TX)
+Text GLabel 8900 5250 2    60   BiDi ~ 0
+PD0(RX)
+Text GLabel 8900 5050 2    60   BiDi ~ 0
+PD2
+Wire Wire Line
+	8750 5150 8900 5150
+Wire Wire Line
+	8900 5250 8750 5250
+$Comp
+L Atmega_328_breakout-rescue:ATMEL_SHIELD SHIELD1
+U 1 1 5A79E70E
+P 7800 4450
+F 0 "SHIELD1" H 7450 5400 60  0000 C CNN
+F 1 "ATMEL_SHIELD" H 7850 3500 60  0000 C CNN
+F 2 "jorgen:AtmelSHIELD" H 7800 4450 60  0001 C CNN
+F 3 "" H 7800 4450 60  0001 C CNN
+	1    7800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1600 6650 1600
+$Comp
+L power:GND #PWR020
+U 1 1 601ADB70
+P 6100 4350
+F 0 "#PWR020" H 6100 4100 50  0001 C CNN
+F 1 "GND" H 6105 4177 50  0000 C CNN
+F 2 "" H 6100 4350 50  0001 C CNN
+F 3 "" H 6100 4350 50  0001 C CNN
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 60DF2C3C
+P 7500 1600
+F 0 "#PWR025" H 7500 1350 50  0001 C CNN
+F 1 "GND" H 7500 1450 50  0000 C CNN
+F 2 "" H 7500 1600 50  0001 C CNN
+F 3 "" H 7500 1600 50  0001 C CNN
+	1    7500 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1700 6650 1700
+Wire Wire Line
+	6850 1800 6650 1800
+Wire Wire Line
+	7500 1500 6650 1500
+Wire Wire Line
+	7300 1400 6650 1400
+Wire Wire Line
+	6850 1300 6650 1300
+Text GLabel 6850 1300 2    60   Input ~ 0
+~RESET
+$Comp
+L Atmega_328_breakout-rescue:+5V #PWR026
+U 1 1 60BC2C27
+P 7500 1500
+F 0 "#PWR026" H 7500 1350 50  0001 C CNN
+F 1 "+5V" H 7500 1640 50  0000 C CNN
+F 2 "" H 7500 1500 50  0001 C CNN
+F 3 "" H 7500 1500 50  0001 C CNN
+	1    7500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atmega_328_breakout-rescue:+3.3V #PWR023
+U 1 1 60BC2C21
+P 7300 1400
+F 0 "#PWR023" H 7300 1250 50  0001 C CNN
+F 1 "+3.3V" H 7300 1540 50  0000 C CNN
+F 2 "" H 7300 1400 50  0001 C CNN
+F 3 "" H 7300 1400 50  0001 C CNN
+	1    7300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Atmega_328_breakout-rescue:GND #PWR030
+U 1 1 60779CF8
+P 9450 3900
+F 0 "#PWR030" H 9450 3650 50  0001 C CNN
+F 1 "GND" H 9450 3750 50  0000 C CNN
+F 2 "" H 9450 3900 50  0001 C CNN
+F 3 "" H 9450 3900 50  0001 C CNN
+	1    9450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3800 6600 3800
+Wire Wire Line
+	6750 4050 6750 3800
+Wire Wire Line
+	6850 4050 6750 4050
+Wire Wire Line
+	6900 3750 6900 3700
+Text GLabel 6600 3800 0    60   BiDi ~ 0
+~RESET
+Wire Wire Line
+	6550 4150 6850 4150
+Wire Wire Line
+	6400 4250 6850 4250
+Wire Wire Line
+	6100 4350 6850 4350
+Wire Wire Line
+	6850 4450 6700 4450
+Wire Wire Line
+	6850 4550 6700 4550
+Wire Wire Line
+	6850 4750 6700 4750
+Wire Wire Line
+	6850 4850 6700 4850
+Wire Wire Line
+	6850 4950 6700 4950
+Wire Wire Line
+	6850 5050 6700 5050
+Wire Wire Line
+	6850 5150 6700 5150
+Wire Wire Line
+	6850 5250 6700 5250
+Wire Wire Line
+	6950 3700 6900 3700
+$Comp
+L Atmega_328_breakout-rescue:GND #PWR024
+U 1 1 60D937B9
+P 6900 3750
+F 0 "#PWR024" H 6900 3500 50  0001 C CNN
+F 1 "GND" H 6900 3600 50  0000 C CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4250 6400 4200
+$Comp
+L power:+5V #PWR021
+U 1 1 60AFBC2C
+P 6400 4200
+F 0 "#PWR021" H 6400 4050 50  0001 C CNN
+F 1 "+5V" H 6400 4340 50  0000 C CNN
+F 2 "" H 6400 4200 50  0001 C CNN
+F 3 "" H 6400 4200 50  0001 C CNN
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4150 6550 4100
+$Comp
+L Atmega_328_breakout-rescue:+3.3V #PWR022
+U 1 1 607E9458
+P 6550 4100
+F 0 "#PWR022" H 6550 3950 50  0001 C CNN
+F 1 "+3.3V" H 6550 4240 50  0000 C CNN
+F 2 "" H 6550 4100 50  0001 C CNN
+F 3 "" H 6550 4100 50  0001 C CNN
+	1    6550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8505 2860 9130 2860
+Wire Wire Line
+	8505 2760 9130 2760
+Wire Wire Line
+	8505 2660 9130 2660
+Wire Wire Line
+	8505 2560 9130 2560
+Wire Wire Line
+	8505 2460 9130 2460
+Wire Wire Line
+	8505 2360 9130 2360
+Wire Wire Line
+	8505 2260 9130 2260
+Wire Wire Line
+	8505 2160 9130 2160
+Text GLabel 8505 2760 0    60   BiDi ~ 0
+PD1(TX)
+Text GLabel 8505 2860 0    60   BiDi ~ 0
+PD0(RX)
+Text GLabel 8505 2260 0    60   BiDi ~ 0
+PD6
+Text GLabel 8505 2360 0    60   BiDi ~ 0
+PD5
+Text GLabel 8505 2460 0    60   BiDi ~ 0
+PD4
+Text GLabel 8505 2660 0    60   BiDi ~ 0
+PD2
+Text GLabel 8505 2560 0    60   BiDi ~ 0
+PD3
+Text GLabel 8505 2160 0    60   BiDi ~ 0
+PD7
+Wire Wire Line
+	9120 1900 9125 1900
+Connection ~ 9120 1900
+Wire Wire Line
+	9120 1800 9125 1800
+Connection ~ 9120 1800
+Wire Wire Line
+	9120 1700 9125 1700
+Connection ~ 9120 1700
+Wire Wire Line
+	9120 1600 9125 1600
+Connection ~ 9120 1600
+Wire Wire Line
+	9120 1500 9125 1500
+Connection ~ 9120 1500
+Wire Wire Line
+	9120 1400 9125 1400
+Connection ~ 9120 1400
+Wire Wire Line
+	9120 1300 9125 1300
+Connection ~ 9120 1300
+Wire Wire Line
+	9120 1200 9125 1200
+Connection ~ 9120 1200
+Wire Wire Line
+	8500 1400 9120 1400
+Wire Wire Line
+	8500 1500 9120 1500
+Wire Wire Line
+	8500 1600 9120 1600
+Wire Wire Line
+	8500 1700 9120 1700
+Wire Wire Line
+	8500 1800 9120 1800
+Wire Wire Line
+	8500 1900 9120 1900
+Wire Wire Line
+	7950 1300 9120 1300
+Wire Wire Line
+	8500 1200 9120 1200
+$Comp
+L Atmega_328_breakout-rescue:Conn_01x08_Female J21
+U 1 1 5A754950
+P 9320 1500
+F 0 "J21" H 9320 1900 50  0000 C CNN
+F 1 "PORB++_connector" V 9470 1475 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9320 1500 50  0001 C CNN
+F 3 "" H 9320 1500 50  0001 C CNN
+	1    9320 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 1200 0    60   BiDi ~ 0
+AREF
+Wire Wire Line
+	7950 1450 7950 1300
+$Comp
+L Atmega_328_breakout-rescue:GND #PWR029
+U 1 1 603E0012
+P 7950 1450
+F 0 "#PWR029" H 7950 1200 50  0001 C CNN
+F 1 "GND" H 7950 1300 50  0000 C CNN
+F 2 "" H 7950 1450 50  0001 C CNN
+F 3 "" H 7950 1450 50  0001 C CNN
+	1    7950 1450
+	-1   0    0    -1  
+$EndComp
+Text GLabel 8500 1400 0    60   BiDi ~ 0
+PB5
+Text GLabel 8500 1600 0    60   BiDi ~ 0
+PB3
+Text GLabel 8500 1700 0    60   BiDi ~ 0
+PB2
+Text GLabel 8500 1500 0    60   BiDi ~ 0
+PB4
+Text GLabel 8500 1900 0    60   BiDi ~ 0
+PB0
+Text GLabel 8500 1800 0    60   BiDi ~ 0
+PB1
+Text Label 8750 1900 0    60   ~ 0
+PB0
+Text Label 8750 1800 0    60   ~ 0
+PB1
+Text Label 8750 1700 0    60   ~ 0
+PB2
+Text Label 8750 1600 0    60   ~ 0
+PB3
+Text Label 8750 1500 0    60   ~ 0
+PB4
+Text Label 8750 1400 0    60   ~ 0
+PB5
+Text Label 8750 1300 0    60   ~ 0
+GND
+Wire Wire Line
+	8900 3650 8750 3650
+Text GLabel 8900 3650 2    60   Output ~ 0
+AREF
+Wire Wire Line
+	9450 3750 8750 3750
+Wire Wire Line
+	9450 3900 9450 3750
+Wire Wire Line
+	8900 3850 8750 3850
+Wire Wire Line
+	8900 5050 8750 5050
+Wire Wire Line
+	8900 4950 8750 4950
+Wire Wire Line
+	8900 4850 8750 4850
+Wire Wire Line
+	8900 4750 8750 4750
+Wire Wire Line
+	8900 4650 8750 4650
+Wire Wire Line
+	8900 4550 8750 4550
+Wire Wire Line
+	8900 4350 8750 4350
+Wire Wire Line
+	8900 4250 8750 4250
+Wire Wire Line
+	8900 4150 8750 4150
+Wire Wire Line
+	8900 4050 8750 4050
+Wire Wire Line
+	8900 3950 8750 3950
+Text GLabel 8900 3850 2    60   BiDi ~ 0
+PB5
+Text GLabel 8900 4050 2    60   BiDi ~ 0
+PB3
+Text GLabel 8900 4150 2    60   BiDi ~ 0
+PB2
+Text GLabel 8900 3950 2    60   BiDi ~ 0
+PB4
+Text GLabel 8900 4350 2    60   BiDi ~ 0
+PB0
+Text GLabel 8900 4250 2    60   BiDi ~ 0
+PB1
+Text GLabel 8900 4550 2    60   BiDi ~ 0
+PD7
+Text GLabel 8900 4950 2    60   BiDi ~ 0
+PD3
+Text GLabel 8900 4850 2    60   BiDi ~ 0
+PD4
+Text GLabel 8900 4750 2    60   BiDi ~ 0
+PD5
+Text GLabel 8900 4650 2    60   BiDi ~ 0
+PD6
+Text GLabel 6700 4450 0    60   Input ~ 0
+AGND
+Text GLabel 6700 4550 0    60   BiDi ~ 0
+V_supply
+Text GLabel 6850 1700 2    60   BiDi ~ 0
+AGND
+Text GLabel 6850 1800 2    60   BiDi ~ 0
+V_supply
+Text GLabel 5100 4700 2    60   Input ~ 0
+~RESET
+Text GLabel 7005 2615 2    60   BiDi ~ 0
+PC4(SDA)
+Wire Wire Line
+	6655 2615 7005 2615
+Text GLabel 7005 2715 2    60   BiDi ~ 0
+PC5(SCL)
+Text GLabel 7005 2815 2    60   BiDi ~ 0
+ADC6
+Text GLabel 7005 2915 2    60   BiDi ~ 0
+ADC7
+Text GLabel 7005 2215 2    60   BiDi ~ 0
+PC0
+Text GLabel 7005 2315 2    60   BiDi ~ 0
+PC1
+Text GLabel 7005 2415 2    60   BiDi ~ 0
+PC2
+Text GLabel 7005 2515 2    60   BiDi ~ 0
+PC3
+Wire Wire Line
+	7005 2715 6655 2715
+Wire Wire Line
+	7005 2815 6655 2815
+Wire Wire Line
+	6655 2915 7005 2915
+Wire Wire Line
+	6655 2215 7005 2215
+Wire Wire Line
+	7005 2315 6655 2315
+Wire Wire Line
+	7005 2415 6655 2415
+Wire Wire Line
+	7005 2515 6655 2515
+Text GLabel 6700 5050 0    60   BiDi ~ 0
+PC3
+Text GLabel 6700 4950 0    60   BiDi ~ 0
+PC2
+Text GLabel 6700 4850 0    60   BiDi ~ 0
+PC1
+Text GLabel 6700 4750 0    60   BiDi ~ 0
+PC0
+Text GLabel 6700 5250 0    60   BiDi ~ 0
+PC5(SCL)
+Text GLabel 6700 5150 0    60   BiDi ~ 0
+PC4(SDA)
+$Comp
+L Atmega_328_breakout-rescue:Conn_01x08_Female J20
+U 1 1 5FA81865
+P 6455 2515
+F 0 "J20" H 6455 2915 50  0000 C CNN
+F 1 "ADC_Connector" V 6555 2490 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6455 2515 50  0001 C CNN
+F 3 "" H 6455 2515 50  0001 C CNN
+	1    6455 2515
+	-1   0    0    -1  
+$EndComp
+Text Notes 7400 950  0    60   ~ 0
+Header pin\nNormal distance
+Text Notes 10250 1050 0    60   ~ 0
+Device connector with open center for connecting:\nServos, sensor, etc. Bodge the center with you selected pin.\n
+Text Label 8680 2160 0    60   ~ 0
+PD7
+Text Label 8680 2260 0    60   ~ 0
+PD6
+Text Label 8680 2360 0    60   ~ 0
+PD5
+Text Label 8680 2460 0    60   ~ 0
+PD4
+Text Label 8680 2560 0    60   ~ 0
+PD3
+Text Label 8680 2660 0    60   ~ 0
+PD2
+Text Label 8680 2760 0    60   ~ 0
+PD1(TX)
+Text Label 8680 2860 0    60   ~ 0
+PD0(RX)
+$Comp
+L Atmega_328_breakout-rescue:Conn_01x06_Female J19
+U 1 1 5A7558EF
+P 6450 1600
+F 0 "J19" H 6400 1075 50  0000 C CNN
+F 1 "Power_connector" V 6550 1550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6450 1600 50  0001 C CNN
+F 3 "" H 6450 1600 50  0001 C CNN
+	1    6450 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Atmega_328_breakout-rescue:Conn_01x08_Female J22
+U 1 1 5A754CA0
+P 9330 2460
+F 0 "J22" H 9080 2860 50  0000 C CNN
+F 1 "PORD_connector" V 9455 2485 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9330 2460 50  0001 C CNN
+F 3 "" H 9330 2460 50  0001 C CNN
+	1    9330 2460
+	1    0    0    -1  
+$EndComp
+Text Notes 10800 2850 0    60   ~ 0
+Power Fanout
+Wire Wire Line
+	4950 8450 4950 8550
 $EndSCHEMATC
