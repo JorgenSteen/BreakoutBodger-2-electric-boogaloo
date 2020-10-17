@@ -37,4 +37,4 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=C:/Workspace/Projects/BreakoutBodger-2-electric-boogaloo/Kicad/lib/jorgen
