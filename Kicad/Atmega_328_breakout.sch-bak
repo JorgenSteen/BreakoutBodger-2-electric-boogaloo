@@ -2385,17 +2385,6 @@ F 3 "" H 3550 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Atmega_328_breakout-rescue:Q_PMOS_SGD Q1
-U 1 1 5A74A028
-P 3150 8900
-F 0 "Q1" H 3350 8950 50  0000 L CNN
-F 1 "PMOS" H 3350 8850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3350 9000 50  0001 C CNN
-F 3 "" H 3150 8900 50  0001 C CNN
-	1    3150 8900
-	0    1    1    0   
-$EndComp
-$Comp
 L Amplifier_Operational:LM358 U3
 U 2 1 5FA0E181
 P 2850 8450
@@ -2517,5 +2506,17 @@ F 2 "jorgen:BB2QR" H 7150 10650 50  0001 C CNN
 F 3 "~" H 7150 10650 50  0001 C CNN
 	1    7150 10650
 	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:AO3401A Q1
+U 1 1 5F9FD044
+P 3150 8900
+F 0 "Q1" V 3399 8900 50  0000 C CNN
+F 1 "AO3401A" V 3490 8900 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3350 8825 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 3150 8900 50  0001 L CNN
+F 4 "C15127" V 3150 8900 50  0001 C CNN "LCSC"
+	1    3150 8900
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
