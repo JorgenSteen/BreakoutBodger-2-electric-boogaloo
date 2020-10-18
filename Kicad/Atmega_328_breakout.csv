@@ -35,7 +35,7 @@ Comment,Designator,Footprint,LCSC
 "NCP1117-5","U1","Package_TO_SOT_SMD:SOT-223-3_TabPin2","C17314"
 "L7805","U2","jorgen:TO-220-ver2",""
 "LM358","U3","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C7950"
-"ATMEGA328P-AU","U4","Package_QFP:TQFP-32_7x7mm_P0.8mm","C132230"
+"ATMEGA328P-AU","U4","Package_QFP:TQFP-32_7x7mm_P0.8mm","C14877"
 "MCP1700-33","U5","Package_TO_SOT_SMD:SOT-23","C62244"
 "MCP2221","U6","Package_SO:TSSOP-14_4.4x5mm_P0.65mm","C130462"
 "Crystal_GND24","Y1","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","C13738"
