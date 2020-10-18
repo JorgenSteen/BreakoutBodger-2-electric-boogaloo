@@ -31,7 +31,7 @@ Comment,Designator,Footprint,LCSC
 "100kR","R9","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","C25803"
 "ATMEL_SHIELD","SHIELD1","jorgen:AtmelSHIELD"
 "SW_Push","SW1,SW2","Button_Switch_SMD:SW_SPST_TL3342","C318887"
-"NCP1117-5","U1","Package_TO_SOT_SMD:SOT-23"
+"NCP1117-5","U1","Package_TO_SOT_SMD:SOT-223-3_TabPin2","C17314"
 "L7805","U2","jorgen:TO-220-ver2"
 "TL071","U3","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C350565"
 "ATMEGA328P-AU","U4","Package_QFP:TQFP-32_7x7mm_P0.8mm","C132230"
