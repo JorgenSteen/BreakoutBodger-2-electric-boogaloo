@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Workspace\Projects\BreakoutBodger-2-electric-boogaloo\Kicad\Atmega_328_breakout.sch</source>
-    <date>18-Oct-20 16:30:27</date>
+    <date>18-Oct-20 17:57:17</date>
     <tool>Eeschema (5.1.7)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -97,10 +97,10 @@
       <tstamp>5A73544B</tstamp>
     </comp>
     <comp ref="D4">
-      <value>LED</value>
+      <value>LED user</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C188728</field>
+        <field name="LCSC">C2293</field>
       </fields>
       <libsource lib="Atmega_328_breakout-rescue" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -334,10 +334,10 @@
       <tstamp>5A78FFB9</tstamp>
     </comp>
     <comp ref="D3">
-      <value>LED</value>
+      <value>LED on</value>
       <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="LCSC">C188728</field>
+        <field name="LCSC">C2296</field>
       </fields>
       <libsource lib="Atmega_328_breakout-rescue" part="LED" description=""/>
       <sheetpath names="/" tstamps="/"/>
