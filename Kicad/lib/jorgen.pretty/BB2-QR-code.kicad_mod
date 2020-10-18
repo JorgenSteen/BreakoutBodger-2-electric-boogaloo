@@ -1,0 +1,8 @@
+(module BB2-QR-code (layer F.Cu) (tedit 5F8C4436)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value BB2-QR-code (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
